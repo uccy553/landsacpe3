@@ -1,0 +1,366 @@
+{
+    "company": {
+        "name": "Joe's Lawn Care, LLC",
+        "tagline": "Where Precision Meets Perfection",
+        "description": "Montgomery's premier lawn care and landscaping service, delivering exceptional outdoor transformations with meticulous attention to detail.",
+        "founded": "2015",
+        "owner": "Joe",
+        "contact": {
+            "phone": "+1 (334) 840-5887",
+            "phoneRaw": "13348405887",
+            "email": "joeslawncarellc15@gmail.com",
+            "address": {
+                "street": "7806 Vaughn Rd",
+                "city": "Montgomery",
+                "state": "AL",
+                "zip": "36116",
+                "country": "United States",
+                "full": "7806 Vaughn Rd, Montgomery, AL 36116, United States"
+            },
+            "coordinates": {
+                "lat": 32.3547,
+                "lng": -86.2389
+            }
+        },
+        "social": {
+            "facebook": "http://web.facebook.com/JoesLawnCareServices2015"
+        },
+        "hours": {
+            "monday": "7:00 AM - 6:00 PM",
+            "tuesday": "7:00 AM - 6:00 PM",
+            "wednesday": "7:00 AM - 6:00 PM",
+            "thursday": "7:00 AM - 6:00 PM",
+            "friday": "7:00 AM - 6:00 PM",
+            "saturday": "8:00 AM - 4:00 PM",
+            "sunday": "Closed"
+        },
+        "serviceRadius": "25 miles from Montgomery, AL"
+    },
+    "hero": {
+        "headline": "Transform Your Outdoor Space",
+        "subheadline": "Professional lawn care and landscaping services that elevate your property's beauty and value",
+        "cta": {
+            "primary": "Get Free Quote",
+            "secondary": "View Our Work"
+        },
+        "stats": [
+            {
+                "number": "9+",
+                "label": "Years of Excellence"
+            },
+            {
+                "number": "500+",
+                "label": "Happy Clients"
+            },
+            {
+                "number": "100%",
+                "label": "Satisfaction Guaranteed"
+            }
+        ]
+    },
+    "about": {
+        "title": "Crafting Beautiful Landscapes Since 2015",
+        "story": "What started as a passion for transforming outdoor spaces has grown into Montgomery's most trusted lawn care service. At Joe's Lawn Care, we believe every property deserves the attention to detail that makes it stand out. Our team combines years of expertise with cutting-edge equipment to deliver results that exceed expectations.",
+        "mission": "To provide exceptional lawn care services that enhance the beauty and value of every property we touch, while building lasting relationships with our clients through reliability, quality, and integrity.",
+        "values": [
+            {
+                "icon": "quality",
+                "title": "Uncompromising Quality",
+                "description": "We never cut corners, only grass. Every project receives meticulous attention to detail."
+            },
+            {
+                "icon": "reliability",
+                "title": "Dependable Service",
+                "description": "We show up on time, every time. Your schedule and property are our priorities."
+            },
+            {
+                "icon": "expertise",
+                "title": "Professional Expertise",
+                "description": "Years of experience and continuous training ensure superior results on every job."
+            },
+            {
+                "icon": "satisfaction",
+                "title": "Customer First",
+                "description": "Your satisfaction drives everything we do. We're not done until you're thrilled."
+            }
+        ]
+    },
+    "services": [
+        {
+            "id": "lawn-mowing",
+            "name": "Professional Lawn Mowing",
+            "icon": "mower",
+            "shortDescription": "Precision cutting for a perfectly manicured lawn",
+            "fullDescription": "Our professional mowing service goes beyond basic cutting. We use commercial-grade equipment to ensure precise, even cuts that promote healthy grass growth. Each visit includes edging, trimming, and cleanup for a pristine finish.",
+            "features": [
+                "Precision cutting at optimal height",
+                "Clean edging along walkways and beds",
+                "String trimming around obstacles",
+                "Complete debris removal",
+                "Consistent weekly or bi-weekly schedule"
+            ],
+            "pricing": "Starting at $35 per visit",
+            "frequency": "Weekly or Bi-weekly"
+        },
+        {
+            "id": "landscape-maintenance",
+            "name": "Landscape Maintenance",
+            "icon": "plants",
+            "shortDescription": "Keep your entire landscape looking its best year-round",
+            "fullDescription": "Comprehensive care for all your landscape features. From pruning and mulching to seasonal cleanups, we maintain the health and beauty of your entire outdoor space.",
+            "features": [
+                "Shrub and hedge trimming",
+                "Mulch installation and refresh",
+                "Weed control in beds",
+                "Seasonal flower planting",
+                "Spring and fall cleanup"
+            ],
+            "pricing": "Custom packages available",
+            "frequency": "Monthly or Seasonal"
+        },
+        {
+            "id": "lawn-treatment",
+            "name": "Lawn Treatment & Fertilization",
+            "icon": "treatment",
+            "shortDescription": "Science-backed treatments for a lush, healthy lawn",
+            "fullDescription": "Our tailored treatment programs address your lawn's specific needs. We analyze soil conditions and grass type to create a customized fertilization and pest control plan that delivers vibrant, healthy results.",
+            "features": [
+                "Custom fertilization programs",
+                "Weed control and prevention",
+                "Pest and disease management",
+                "Aeration and overseeding",
+                "pH balancing and soil amendments"
+            ],
+            "pricing": "Starting at $65 per application",
+            "frequency": "4-6 times annually"
+        },
+        {
+            "id": "irrigation",
+            "name": "Irrigation Services",
+            "icon": "water",
+            "shortDescription": "Smart watering solutions for optimal lawn health",
+            "fullDescription": "Efficient irrigation systems that conserve water while keeping your lawn perfectly hydrated. We install, repair, and maintain systems to ensure your landscape gets exactly what it needs.",
+            "features": [
+                "System installation and design",
+                "Seasonal startup and winterization",
+                "Repair and maintenance",
+                "Smart controller upgrades",
+                "Water efficiency optimization"
+            ],
+            "pricing": "Service call: $85",
+            "frequency": "As needed"
+        },
+        {
+            "id": "hardscaping",
+            "name": "Hardscaping & Design",
+            "icon": "hardscape",
+            "shortDescription": "Transform your outdoor space with elegant structures",
+            "fullDescription": "Create stunning outdoor living areas with professional hardscaping. From patios and walkways to retaining walls and fire pits, we build durable, beautiful features that enhance your property.",
+            "features": [
+                "Custom patio design and installation",
+                "Walkways and pathways",
+                "Retaining walls",
+                "Outdoor kitchens and fire features",
+                "Drainage solutions"
+            ],
+            "pricing": "Custom quotes",
+            "frequency": "Project-based"
+        },
+        {
+            "id": "seasonal-services",
+            "name": "Seasonal Services",
+            "icon": "seasons",
+            "shortDescription": "Year-round care for every season's unique needs",
+            "fullDescription": "Specialized services tailored to each season's demands. From spring cleanups to fall leaf removal and winter preparations, we keep your property pristine all year long.",
+            "features": [
+                "Spring cleanup and bed preparation",
+                "Summer deep watering programs",
+                "Fall leaf removal and aeration",
+                "Winter protection and storm cleanup",
+                "Holiday lighting installation"
+            ],
+            "pricing": "Seasonal packages available",
+            "frequency": "Seasonal"
+        }
+    ],
+    "process": {
+        "title": "Our Simple 4-Step Process",
+        "steps": [
+            {
+                "number": 1,
+                "title": "Free Consultation",
+                "description": "Contact us for a no-obligation assessment of your property. We'll discuss your vision and specific needs.",
+                "icon": "consultation"
+            },
+            {
+                "number": 2,
+                "title": "Custom Proposal",
+                "description": "Receive a detailed, transparent quote tailored to your property's unique requirements and your budget.",
+                "icon": "proposal"
+            },
+            {
+                "number": 3,
+                "title": "Scheduled Service",
+                "description": "We arrive on time with professional equipment and get to work transforming your outdoor space.",
+                "icon": "service"
+            },
+            {
+                "number": 4,
+                "title": "Quality Guarantee",
+                "description": "Walk your property with us. We're not satisfied until you're absolutely thrilled with the results.",
+                "icon": "guarantee"
+            }
+        ]
+    },
+    "testimonials": [
+        {
+            "id": 1,
+            "name": "Sarah Mitchell",
+            "location": "Montgomery, AL",
+            "rating": 5,
+            "text": "Joe's Lawn Care transformed our overgrown yard into a stunning landscape. Their attention to detail is unmatched, and they're always on time. Best decision we made for our home!",
+            "service": "Full Landscape Renovation",
+            "date": "2024-09"
+        },
+        {
+            "id": 2,
+            "name": "Michael Roberts",
+            "location": "Prattville, AL",
+            "rating": 5,
+            "text": "Professional, reliable, and reasonably priced. My lawn has never looked better. The team is courteous and always leaves the property cleaner than they found it.",
+            "service": "Weekly Mowing Service",
+            "date": "2024-10"
+        },
+        {
+            "id": 3,
+            "name": "Jennifer Thompson",
+            "location": "Montgomery, AL",
+            "rating": 5,
+            "text": "After struggling with brown patches for years, Joe's treatment program brought my lawn back to life. It's now the envy of the neighborhood. Highly recommend!",
+            "service": "Lawn Treatment Program",
+            "date": "2024-08"
+        },
+        {
+            "id": 4,
+            "name": "David Chen",
+            "location": "Millbrook, AL",
+            "rating": 5,
+            "text": "The irrigation system they installed has saved us so much time and water. Plus, our lawn stays green even in the hottest months. Excellent work from start to finish.",
+            "service": "Irrigation Installation",
+            "date": "2024-07"
+        }
+    ],
+    "portfolio": [
+        {
+            "id": 1,
+            "title": "Modern Residential Transformation",
+            "category": "Residential",
+            "description": "Complete lawn renovation with new sod, landscape beds, and irrigation",
+            "beforeImage": "/images/portfolio/project1-before.jpg",
+            "afterImage": "/images/portfolio/project1-after.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Commercial Property Maintenance",
+            "category": "Commercial",
+            "description": "Weekly maintenance and seasonal enhancements for office complex",
+            "beforeImage": "/images/portfolio/project2-before.jpg",
+            "afterImage": "/images/portfolio/project2-after.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Backyard Oasis Creation",
+            "category": "Hardscaping",
+            "description": "Custom patio, fire pit, and surrounding landscape design",
+            "beforeImage": "/images/portfolio/project3-before.jpg",
+            "afterImage": "/images/portfolio/project3-after.jpg"
+        }
+    ],
+    "faq": [
+        {
+            "question": "How often should I have my lawn mowed?",
+            "answer": "Most lawns in the Montgomery area benefit from weekly mowing during the growing season (spring through fall). During peak summer growth, weekly service ensures your grass stays at optimal height. In slower growth periods, bi-weekly service may be sufficient. We'll assess your lawn and recommend the best schedule."
+        },
+        {
+            "question": "Do you provide free estimates?",
+            "answer": "Absolutely! We offer free, no-obligation consultations and estimates for all our services. We'll visit your property, assess your needs, and provide a detailed, transparent quote. No surprises, no hidden fees."
+        },
+        {
+            "question": "What areas do you service?",
+            "answer": "We proudly serve Montgomery and surrounding areas within a 25-mile radius, including Prattville, Millbrook, Wetumpka, and Pike Road. If you're unsure whether we cover your area, give us a call and we'll let you know."
+        },
+        {
+            "question": "Are you licensed and insured?",
+            "answer": "Yes, Joe's Lawn Care, LLC is fully licensed and insured. We carry comprehensive liability insurance and workers' compensation coverage to protect both our team and your property."
+        },
+        {
+            "question": "What if I'm not satisfied with the service?",
+            "answer": "Your satisfaction is our top priority. If you're not completely happy with our work, let us know immediately and we'll return to make it right at no additional charge. We stand behind every service with our 100% satisfaction guarantee."
+        },
+        {
+            "question": "Do you offer seasonal contracts or one-time services?",
+            "answer": "We offer both! Many clients prefer seasonal contracts for regular maintenance, which often come with preferred pricing. We also provide one-time services for special projects, cleanups, or occasional maintenance. Whatever works best for you."
+        },
+        {
+            "question": "What payment methods do you accept?",
+            "answer": "We accept cash, checks, and all major credit cards for your convenience. For recurring services, we can also set up automatic billing to make things even easier."
+        },
+        {
+            "question": "How far in advance should I schedule services?",
+            "answer": "For regular maintenance like mowing, we recommend calling as early as possible to secure your preferred day and time. For larger projects or seasonal services, 2-3 weeks advance notice is ideal, though we'll do our best to accommodate urgent needs."
+        }
+    ],
+    "cta": {
+        "main": {
+            "title": "Ready to Transform Your Outdoor Space?",
+            "description": "Get your free consultation today and discover why Montgomery trusts Joe's Lawn Care for all their landscaping needs.",
+            "buttonText": "Get Free Quote",
+            "phone": "Call (334) 840-5887"
+        },
+        "secondary": {
+            "title": "Join Hundreds of Satisfied Customers",
+            "description": "Experience the Joe's Lawn Care difference. Professional service, exceptional results, guaranteed.",
+            "buttonText": "Schedule Service"
+        }
+    },
+    "seo": {
+        "homepage": {
+            "title": "Joe's Lawn Care, LLC | Professional Lawn Care & Landscaping Montgomery, AL",
+            "description": "Montgomery's premier lawn care and landscaping service since 2015. Professional mowing, maintenance, and landscape design. Free quotes. Call (334) 840-5887.",
+            "keywords": "lawn care Montgomery AL, landscaping Montgomery, lawn mowing service, landscape maintenance, lawn treatment, Montgomery lawn service"
+        },
+        "services": {
+            "title": "Professional Lawn Care Services | Joe's Lawn Care Montgomery, AL",
+            "description": "Comprehensive lawn care services including mowing, maintenance, treatment, irrigation, and hardscaping. Serving Montgomery and surrounding areas.",
+            "keywords": "lawn mowing Montgomery, landscape maintenance, lawn fertilization, irrigation services, hardscaping Montgomery AL"
+        }
+    },
+    "features": {
+        "guarantees": [
+            "100% Satisfaction Guaranteed",
+            "Licensed & Insured",
+            "Free Estimates",
+            "Professional Equipment",
+            "Experienced Team",
+            "Flexible Scheduling"
+        ],
+        "badges": [
+            {
+                "name": "9+ Years Experience",
+                "icon": "experience"
+            },
+            {
+                "name": "Fully Insured",
+                "icon": "insurance"
+            },
+            {
+                "name": "Local Business",
+                "icon": "local"
+            },
+            {
+                "name": "Eco-Friendly",
+                "icon": "eco"
+            }
+        ]
+    }
+}
