@@ -71,7 +71,7 @@ export function Hero({ data, phone, phoneRaw }: HeroProps) {
                 <div
                     className="absolute inset-0 pointer-events-none"
                     style={{
-                        background: 'radial-gradient(circle at center, transparent 30%, rgba(5, 30, 5, 0.8) 100%)'
+                        background: 'radial-gradient(circle at center, transparent 30%, rgba(5, 30, 5, 0.95) 100%)'
                     }}
                 />
 
