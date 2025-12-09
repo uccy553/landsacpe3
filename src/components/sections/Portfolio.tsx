@@ -31,7 +31,7 @@ export function Portfolio({ items }: PortfolioProps) {
                     variants={fadeInUp}
                     initial="hidden"
                     animate={inView ? "visible" : "hidden"}
-                    className="text-center max-w-3xl mx-auto mb-12"
+                    className="text-center max-w-3xl mx-auto mb-6 md:mb-12"
                 >
                     <span className="inline-block px-4 py-1 bg-primary-500 text-white rounded-full text-sm font-semibold mb-4">
                         Our Portfolio
@@ -50,7 +50,7 @@ export function Portfolio({ items }: PortfolioProps) {
                     initial="hidden"
                     animate={inView ? "visible" : "hidden"}
                     transition={{ delay: 0.1 }}
-                    className="flex flex-wrap justify-center gap-3 mb-12"
+                    className="flex flex-wrap justify-center gap-3 mb-8 md:mb-12"
                 >
                     {categories.map((category) => (
                         <button
@@ -86,7 +86,7 @@ export function Portfolio({ items }: PortfolioProps) {
                                 onClick={() => setLightboxItem(item)}
                             >
                                 {/* Image Container with Before/After Slider */}
-                                <div className="relative h-64 overflow-hidden">
+                                <div className="relative h-48 md:h-64 overflow-hidden">
                                     <img
                                         src={item.afterImage}
                                         alt={item.title}
@@ -110,7 +110,7 @@ export function Portfolio({ items }: PortfolioProps) {
                                 </div>
 
                                 {/* Content */}
-                                <div className="p-6">
+                                <div className="p-4 md:p-6">
                                     <h3 className="font-heading text-xl font-bold text-charcoal mb-2">
                                         {item.title}
                                     </h3>
@@ -149,7 +149,7 @@ export function Portfolio({ items }: PortfolioProps) {
                             </button>
 
                             {/* Image */}
-                            <div className="relative h-[60vh] overflow-hidden bg-gray-100">
+                            <div className="relative w-full max-h-[80vh] overflow-y-auto overflow-x-hidden">
                                 <BeforeAfterSlider
                                     beforeImage={lightboxItem.beforeImage}
                                     afterImage={lightboxItem.afterImage}

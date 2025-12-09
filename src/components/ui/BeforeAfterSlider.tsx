@@ -80,14 +80,14 @@ export function BeforeAfterSlider({
     return (
         <div
             ref={containerRef}
-            className={`relative w-full h-full overflow-hidden select-none cursor-ew-resize ${className}`}
+            className={`relative w-full select-none cursor-ew-resize ${className}`}
             onClick={handleContainerClick}
         >
-            {/* After Image (Background) */}
+            {/* After Image (Background - Defines Size) */}
             <img
                 src={afterImage}
                 alt={`After ${alt}`}
-                className="absolute inset-0 w-full h-full object-cover"
+                className="block w-full h-auto"
                 draggable={false}
             />
 
