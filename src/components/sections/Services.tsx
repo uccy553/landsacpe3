@@ -100,7 +100,7 @@ export function Services({ services }: ServicesProps) {
                                         </span>
                                         <Link
                                             href={`/services/${service.id}`}
-                                            className="inline-flex items-center gap-1 text-sm font-medium text-[var(--color-accent-600)] hover:text-[var(--color-accent-500)] transition-colors group/link"
+                                            className="inline-flex items-center gap-1 text-sm font-medium text-[var(--color-accent-600)] hover:text-[var(--color-accent-500)] transition-colors group/link whitespace-nowrap"
                                         >
                                             Learn More
                                             <ArrowRight className="w-4 h-4 transition-transform group-hover/link:translate-x-1" />
