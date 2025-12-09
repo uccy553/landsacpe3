@@ -156,7 +156,7 @@ export function Hero({ data, phone, phoneRaw }: HeroProps) {
                         transition={{ duration: 0.8, delay: 0.5 }}
                         className="hidden lg:block"
                     >
-                        <div className="glass rounded-3xl p-8 space-y-8">
+                        <div className="glass bg-black/50 backdrop-blur-md rounded-3xl p-8 space-y-8">
                             <h3 className="font-heading text-2xl font-bold text-white text-center">
                                 Why Choose Us
                             </h3>
