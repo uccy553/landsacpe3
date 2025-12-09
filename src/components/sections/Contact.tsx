@@ -127,12 +127,15 @@ export function Contact({ company, services }: ContactProps) {
 
                         {/* Map Placeholder */}
                         <div className="bg-white rounded-2xl overflow-hidden shadow-md h-48 lg:h-64">
-                            <div className="w-full h-full bg-gray-200 flex items-center justify-center">
-                                <div className="text-center text-gray-500">
-                                    <MapPin className="w-8 h-8 mx-auto mb-2" />
-                                    <p className="text-sm">Map showing service area</p>
-                                </div>
-                            </div>
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3371.066548264216!2d-86.18464832447069!3d32.33692297385066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x888c2b7bc6381a0b%3A0x5e18c8196c537ee6!2s7806%20Vaughn%20Rd%2C%20Montgomery%2C%20AL%2036116%2C%20USA!5e0!3m2!1sen!2sng!4v1765127686396!5m2!1sen!2sng"
+                                width="100%"
+                                height="100%"
+                                style={{ border: 0 }}
+                                allowFullScreen
+                                loading="lazy"
+                                referrerPolicy="no-referrer-when-downgrade"
+                            ></iframe>
                         </div>
                     </motion.div>
 

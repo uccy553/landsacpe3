@@ -73,6 +73,7 @@ export interface Service {
     features: string[];
     pricing: string;
     frequency: string;
+    image: string;
 }
 
 export interface ProcessStep {

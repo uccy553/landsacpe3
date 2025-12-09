@@ -6,6 +6,7 @@ import { useInView } from "react-intersection-observer";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import { PortfolioItem } from "@/types";
 import { fadeInUp, staggerContainer, staggerItem } from "@/lib/animations";
+import { BeforeAfterSlider } from "@/components/ui/BeforeAfterSlider";
 
 interface PortfolioProps {
     items: PortfolioItem[];
@@ -15,7 +16,6 @@ export function Portfolio({ items }: PortfolioProps) {
     const [ref, inView] = useInView({ threshold: 0.1, triggerOnce: true });
     const [filter, setFilter] = useState("All");
     const [lightboxItem, setLightboxItem] = useState<PortfolioItem | null>(null);
-    const [showAfter, setShowAfter] = useState(true);
 
     const categories = ["All", ...new Set(items.map((item) => item.category))];
     const filteredItems =
@@ -88,7 +88,7 @@ export function Portfolio({ items }: PortfolioProps) {
                                 {/* Image Container with Before/After Slider */}
                                 <div className="relative h-64 overflow-hidden">
                                     <img
-                                        src={`https://images.unsplash.com/photo-1558904541-efa843a96f01?q=80&w=800&auto=format&fit=crop`}
+                                        src={item.afterImage}
                                         alt={item.title}
                                         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                                     />
@@ -149,34 +149,12 @@ export function Portfolio({ items }: PortfolioProps) {
                             </button>
 
                             {/* Image */}
-                            <div className="relative h-[60vh] overflow-hidden">
-                                <img
-                                    src={`https://images.unsplash.com/photo-1558904541-efa843a96f01?q=80&w=1600&auto=format&fit=crop`}
+                            <div className="relative h-[60vh] overflow-hidden bg-gray-100">
+                                <BeforeAfterSlider
+                                    beforeImage={lightboxItem.beforeImage}
+                                    afterImage={lightboxItem.afterImage}
                                     alt={lightboxItem.title}
-                                    className="w-full h-full object-cover"
                                 />
-
-                                {/* Before/After Toggle */}
-                                <div className="absolute bottom-4 left-1/2 -translate-x-1/2 flex bg-white/90 backdrop-blur-sm rounded-lg overflow-hidden">
-                                    <button
-                                        onClick={() => setShowAfter(false)}
-                                        className={`px-6 py-2 text-sm font-medium transition-colors ${!showAfter
-                                            ? "bg-primary-500 text-white"
-                                            : "text-charcoal"
-                                            }`}
-                                    >
-                                        Before
-                                    </button>
-                                    <button
-                                        onClick={() => setShowAfter(true)}
-                                        className={`px-6 py-2 text-sm font-medium transition-colors ${showAfter
-                                            ? "bg-primary-500 text-white"
-                                            : "text-charcoal"
-                                            }`}
-                                    >
-                                        After
-                                    </button>
-                                </div>
                             </div>
 
                             {/* Content */}

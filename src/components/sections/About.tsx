@@ -10,7 +10,7 @@ interface AboutProps {
     data: AboutType;
 }
 
-const iconMap: Record<string, React.ElementType> = {
+const iconMap: Record<string, React.ComponentType<any>> = {
     quality: Award,
     reliability: Clock,
     expertise: ShieldCheck,

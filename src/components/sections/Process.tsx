@@ -15,7 +15,7 @@ interface ProcessProps {
     data: ProcessType;
 }
 
-const iconMap: Record<string, React.ElementType> = {
+const iconMap: Record<string, React.ComponentType<any>> = {
     consultation: MessageSquare,
     proposal: FileText,
     service: CalendarCheck,

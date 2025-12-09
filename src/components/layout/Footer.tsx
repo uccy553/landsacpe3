@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { ArrowUp, Phone, Mail, MapPin, Facebook, Instagram, Twitter } from "lucide-react";
 import { Company } from "@/types";
 
@@ -27,15 +28,18 @@ export function Footer({ company }: FooterProps) {
     return (
         <footer className="bg-[var(--color-primary-900)] text-white">
             {/* Main Footer */}
-            <div className="container mx-auto px-4 py-16">
+            <div className="w-full px-8 pt-20 pb-16">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
                     {/* Company Info */}
                     <div className="lg:col-span-1">
                         <div className="flex items-center gap-2 mb-6">
-                            <div className="w-10 h-10 rounded-full bg-[var(--color-accent-500)] flex items-center justify-center">
-                                <span className="text-[var(--color-primary-900)] font-bold text-lg">
-                                    {company.name.charAt(0)}
-                                </span>
+                            <div className="w-10 h-10 relative">
+                                <Image
+                                    src="/lawn_care_logo.svg"
+                                    alt={company.name}
+                                    fill
+                                    className="object-contain"
+                                />
                             </div>
                             <span className="font-heading text-xl font-bold">
                                 {company.name.split(",")[0]}
@@ -84,7 +88,7 @@ export function Footer({ company }: FooterProps) {
 
                     {/* Quick Links */}
                     <div>
-                        <h3 className="font-heading text-lg font-bold mb-6 text-[var(--color-accent-500)]">
+                        <h3 className="font-heading text-lg font-bold mb-6 pt-8 md:pt-0 text-[var(--color-accent-500)]">
                             Quick Links
                         </h3>
                         <ul className="space-y-3">
@@ -103,7 +107,7 @@ export function Footer({ company }: FooterProps) {
 
                     {/* Contact Info */}
                     <div>
-                        <h3 className="font-heading text-lg font-bold mb-6 text-[var(--color-accent-500)]">
+                        <h3 className="font-heading text-lg font-bold mb-6 pt-8 md:pt-0 text-[var(--color-accent-500)]">
                             Contact Us
                         </h3>
                         <ul className="space-y-4">
@@ -134,7 +138,7 @@ export function Footer({ company }: FooterProps) {
 
                     {/* Business Hours */}
                     <div>
-                        <h3 className="font-heading text-lg font-bold mb-6 text-[var(--color-accent-500)]">
+                        <h3 className="font-heading text-lg font-bold mb-6 pt-8 md:pt-0 text-[var(--color-accent-500)]">
                             Business Hours
                         </h3>
                         <ul className="space-y-2">
@@ -154,7 +158,7 @@ export function Footer({ company }: FooterProps) {
 
             {/* Bottom Bar */}
             <div className="border-t border-white/10">
-                <div className="container mx-auto px-4 py-6 flex flex-col md:flex-row items-center justify-between gap-4">
+                <div className="container mx-auto px-4 py-8 flex flex-col md:flex-row items-center justify-between gap-4">
                     <p className="text-white/50 text-sm text-center md:text-left">
                         © {currentYear} {company.name}. All rights reserved.
                     </p>

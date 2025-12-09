@@ -19,7 +19,7 @@ interface ServicesProps {
     services: Service[];
 }
 
-const iconMap: Record<string, React.ElementType> = {
+const iconMap: Record<string, React.ComponentType<any>> = {
     mower: Scissors,
     plants: TreePine,
     treatment: Leaf,
@@ -73,7 +73,7 @@ export function Services({ services }: ServicesProps) {
                                     <div
                                         className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
                                         style={{
-                                            backgroundImage: `url('https://images.unsplash.com/photo-1558904541-efa843a96f01?q=80&w=800&auto=format&fit=crop')`,
+                                            backgroundImage: `url('${service.image}')`,
                                         }}
                                     />
                                     <div className="absolute inset-0 bg-gradient-to-t from-[var(--color-primary-900)] via-transparent to-transparent" />

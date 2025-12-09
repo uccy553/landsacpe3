@@ -58,20 +58,27 @@ export function Hero({ data, phone, phoneRaw }: HeroProps) {
     };
 
     return (
-        <section className="relative min-h-[100dvh] flex items-start lg:items-center overflow-hidden">
+        <section className="relative h-[100vh] flex items-center overflow-hidden">
             {/* Background Image with Overlay */}
             <div className="absolute inset-0 z-0">
                 <div
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: `url('https://images.unsplash.com/photo-1558904541-efa843a96f01?q=80&w=2070&auto=format&fit=crop')`,
+                        backgroundImage: `url('/hero.webp')`,
                     }}
                 />
-                <div className="absolute inset-0 bg-gradient-to-r from-[var(--color-primary-900)]/90 via-[var(--color-primary-800)]/80 to-[var(--color-primary-700)]/70" />
+                {/* Vignette Overlay */}
+                <div
+                    className="absolute inset-0 pointer-events-none"
+                    style={{
+                        background: 'radial-gradient(circle at center, transparent 30%, rgba(5, 30, 5, 0.8) 100%)'
+                    }}
+                />
+
             </div>
 
             {/* Content */}
-            <div className="container mx-auto px-4 relative z-10 pt-40 md:pt-24 pb-16">
+            <div className="container mx-auto px-4 relative z-10 py-20 md:py-24">
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
                     {/* Text Content */}
                     <motion.div
@@ -83,7 +90,7 @@ export function Hero({ data, phone, phoneRaw }: HeroProps) {
                         {/* Rating Badge */}
                         <motion.div
                             variants={heroTextItem}
-                            className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full mb-8"
+                            className="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full mb-4 md:mb-8"
                         >
                             <div className="flex">
                                 {[...Array(5)].map((_, i) => (
@@ -96,7 +103,7 @@ export function Hero({ data, phone, phoneRaw }: HeroProps) {
                         {/* Headline */}
                         <motion.h1
                             variants={heroTextItem}
-                            className="font-heading text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6"
+                            className="font-heading text-3xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4"
                         >
                             {data.headline}
                         </motion.h1>
@@ -104,7 +111,7 @@ export function Hero({ data, phone, phoneRaw }: HeroProps) {
                         {/* Subheadline */}
                         <motion.p
                             variants={heroTextItem}
-                            className="text-lg md:text-xl text-white/80 mb-8 max-w-xl mx-auto lg:mx-0"
+                            className="text-base md:text-xl text-white/80 mb-6 max-w-xl mx-auto lg:mx-0"
                         >
                             {data.subheadline}
                         </motion.p>
@@ -112,9 +119,12 @@ export function Hero({ data, phone, phoneRaw }: HeroProps) {
                         {/* CTA Buttons */}
                         <motion.div
                             variants={heroTextItem}
-                            className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
+                            className="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start"
                         >
-                            <Button variant="secondary" size="lg">
+                            <Button
+                                size="lg"
+                                className="bg-[var(--color-accent-600)] text-white hover:bg-[var(--color-accent-500)] shadow-lg hover:shadow-xl transition-all"
+                            >
                                 {data.cta.primary}
                             </Button>
                             <Button
@@ -130,7 +140,7 @@ export function Hero({ data, phone, phoneRaw }: HeroProps) {
                         <motion.a
                             variants={heroTextItem}
                             href={`tel:${phoneRaw}`}
-                            className="inline-flex items-center gap-2 mt-8 text-white/80 hover:text-white transition-colors"
+                            className="inline-flex items-center gap-2 mt-4 md:mt-8 text-white/80 hover:text-white transition-colors"
                         >
                             <div className="p-2 bg-[var(--color-accent-500)] rounded-full animate-pulse-glow">
                                 <Phone className="w-5 h-5 text-[var(--color-primary-900)]" />

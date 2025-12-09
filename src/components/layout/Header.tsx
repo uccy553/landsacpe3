@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Phone } from "lucide-react";
 import { Button } from "@/components/ui/Button";
@@ -61,10 +62,13 @@ export function Header({ companyName, phone, phoneRaw }: HeaderProps) {
                 <div className="container mx-auto px-4 flex items-center justify-between">
                     {/* Logo */}
                     <Link href="/" className="flex items-center gap-2 group">
-                        <div className="w-10 h-10 rounded-full bg-[var(--color-primary-500)] flex items-center justify-center">
-                            <span className="text-white font-bold text-lg">
-                                {companyName.charAt(0)}
-                            </span>
+                        <div className="w-10 h-10 relative">
+                            <Image
+                                src="/lawn_care_logo.svg"
+                                alt={companyName}
+                                fill
+                                className="object-contain"
+                            />
                         </div>
                         <span
                             className={cn(

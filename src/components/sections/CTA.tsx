@@ -60,7 +60,10 @@ export function CTA({ data, features, phone, phoneRaw }: CTAProps) {
                         </ul>
 
                         <div className="flex flex-col sm:flex-row gap-4">
-                            <Button variant="secondary" size="lg">
+                            <Button
+                                size="lg"
+                                className="bg-[var(--color-accent-600)] text-white hover:bg-[var(--color-accent-500)] shadow-lg hover:shadow-xl transition-all"
+                            >
                                 {data.main.buttonText}
                                 <ArrowRight className="w-5 h-5 ml-2" />
                             </Button>

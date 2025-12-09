@@ -100,7 +100,8 @@
                 "Consistent weekly or bi-weekly schedule"
             ],
             "pricing": "Starting at $35 per visit",
-            "frequency": "Weekly or Bi-weekly"
+            "frequency": "Weekly or Bi-weekly",
+            "image": "/images/services/Lawn-Maintenance.jpeg"
         },
         {
             "id": "landscape-maintenance",
@@ -116,7 +117,8 @@
                 "Spring and fall cleanup"
             ],
             "pricing": "Custom packages available",
-            "frequency": "Monthly or Seasonal"
+            "frequency": "Monthly or Seasonal",
+            "image": "/images/services/landscape.jpg"
         },
         {
             "id": "lawn-treatment",
@@ -132,7 +134,8 @@
                 "pH balancing and soil amendments"
             ],
             "pricing": "Starting at $65 per application",
-            "frequency": "4-6 times annually"
+            "frequency": "4-6 times annually",
+            "image": "/images/services/treatment.jpg"
         },
         {
             "id": "irrigation",
@@ -148,7 +151,8 @@
                 "Water efficiency optimization"
             ],
             "pricing": "Service call: $85",
-            "frequency": "As needed"
+            "frequency": "As needed",
+            "image": "/images/services/irrigation.jpg"
         },
         {
             "id": "hardscaping",
@@ -164,7 +168,8 @@
                 "Drainage solutions"
             ],
             "pricing": "Custom quotes",
-            "frequency": "Project-based"
+            "frequency": "Project-based",
+            "image": "/images/services/hardscaping.webp"
         },
         {
             "id": "seasonal-services",
@@ -180,7 +185,8 @@
                 "Holiday lighting installation"
             ],
             "pricing": "Seasonal packages available",
-            "frequency": "Seasonal"
+            "frequency": "Seasonal",
+            "image": "/images/services/seasonal.jpg"
         }
     ],
     "process": {
@@ -253,27 +259,51 @@
     "portfolio": [
         {
             "id": 1,
-            "title": "Modern Residential Transformation",
+            "title": "Complete Lawn Transformation",
             "category": "Residential",
-            "description": "Complete lawn renovation with new sod, landscape beds, and irrigation",
-            "beforeImage": "/images/portfolio/project1-before.jpg",
-            "afterImage": "/images/portfolio/project1-after.jpg"
+            "description": "Total revitalization of a residential front lawn, turning patchy grass into a lush green carpet.",
+            "beforeImage": "/before-1.webp",
+            "afterImage": "/after-1.webp"
         },
         {
             "id": 2,
-            "title": "Commercial Property Maintenance",
-            "category": "Commercial",
-            "description": "Weekly maintenance and seasonal enhancements for office complex",
-            "beforeImage": "/images/portfolio/project2-before.jpg",
-            "afterImage": "/images/portfolio/project2-after.jpg"
+            "title": "Backyard Landscape Design",
+            "category": "Hardscaping",
+            "description": "Creating a functional and beautiful backyard space with new sod and defined flower beds.",
+            "beforeImage": "/before-2.webp",
+            "afterImage": "/after-2.webp"
         },
         {
             "id": 3,
-            "title": "Backyard Oasis Creation",
-            "category": "Hardscaping",
-            "description": "Custom patio, fire pit, and surrounding landscape design",
-            "beforeImage": "/images/portfolio/project3-before.jpg",
-            "afterImage": "/images/portfolio/project3-after.jpg"
+            "title": "Commercial Grounds Maintenance",
+            "category": "Commercial",
+            "description": "Professional maintenance ensuring a pristine appearance for this commercial property.",
+            "beforeImage": "/before-3.webp",
+            "afterImage": "/after-3.webp"
+        },
+        {
+            "id": 4,
+            "title": "Garden Bed Renovation",
+            "category": "Residential",
+            "description": "Cleaning up overgrown beds and installing fresh mulch and plants for curb appeal.",
+            "beforeImage": "/before-4.webp",
+            "afterImage": "/after-4.webp"
+        },
+        {
+            "id": 5,
+            "title": "Seasonal Cleanup & Mulching",
+            "category": "Maintenance",
+            "description": "Restoring order to a neglected yard with thorough cleanup and fresh pine straw.",
+            "beforeImage": "/before-5.webp",
+            "afterImage": "/after-5.webp"
+        },
+        {
+            "id": 6,
+            "title": "Large Scale Turf Installation",
+            "category": "Residential",
+            "description": "Installation of high-quality sod for an instant, dramatic improvement to the property.",
+            "beforeImage": "/before-6.webp",
+            "afterImage": "/after-6.webp"
         }
     ],
     "faq": [
