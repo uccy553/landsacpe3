@@ -1,29 +1,29 @@
 {
     "company": {
-        "name": "Lawn Care 365 LLC",
-        "tagline": "Where Precision Meets Perfection, Every Day of the Year",
-        "description": "Columbus's premier year-round lawn care and landscaping service, delivering exceptional outdoor transformations with meticulous attention to detail.",
-        "founded": "2018",
-        "owner": "Lawn Care 365 Team",
+        "name": "Beck's LCAM",
+        "tagline": "Where Lawn Care Excellence Meets Comprehensive Service",
+        "description": "Columbus's premier lawn care and maintenance service, delivering exceptional outdoor transformations with meticulous attention to detail and comprehensive care solutions.",
+        "founded": "2017",
+        "owner": "Beck's LCAM Team",
         "contact": {
-            "phone": "+1 (706) 315-2806",
-            "phoneRaw": "17063152806",
-            "email": "lawncare365@hotmail.com",
+            "phone": "+1 (833) 444-8548",
+            "phoneRaw": "18334448548",
+            "email": "beckslawncareandmore@gmail.com",
             "address": {
-                "street": "1228 Cedar Ave",
+                "street": "6211 Jane Ln",
                 "city": "Columbus",
                 "state": "GA",
-                "zip": "31906",
+                "zip": "31909",
                 "country": "United States",
-                "full": "1228 Cedar Ave, Columbus, GA 31906, United States"
+                "full": "6211 Jane Ln, Columbus, GA 31909, United States"
             },
             "coordinates": {
-                "lat": 32.4601,
-                "lng": -84.9877
+                "lat": 32.5325,
+                "lng": -84.9432
             }
         },
         "social": {
-            "facebook": "https://web.facebook.com/365lawncare/?_rdc=1&_rdr#"
+            "facebook": "https://web.facebook.com/beckslawncareandmore/?_rdc=1&_rdr#"
         },
         "hours": {
             "monday": "7:00 AM - 6:00 PM",
@@ -38,18 +38,18 @@
     },
     "hero": {
         "headline": "Transform Your Outdoor Space",
-        "subheadline": "Professional year-round lawn care and landscaping services that elevate your property's beauty and value",
+        "subheadline": "Professional lawn care and comprehensive maintenance services that elevate your property's beauty and value",
         "cta": {
             "primary": "Get Free Quote",
             "secondary": "View Our Work"
         },
         "stats": [
             {
-                "number": "6+",
+                "number": "7+",
                 "label": "Years of Excellence"
             },
             {
-                "number": "400+",
+                "number": "500+",
                 "label": "Happy Clients"
             },
             {
@@ -59,29 +59,29 @@
         ]
     },
     "about": {
-        "title": "Crafting Beautiful Landscapes Since 2018",
-        "story": "What started as a passion for transforming outdoor spaces has grown into Columbus's most trusted year-round lawn care service. At Lawn Care 365 LLC, we believe every property deserves the attention to detail that makes it stand out. Our team combines years of expertise with cutting-edge equipment to deliver results that exceed expectations, every day of the year.",
-        "mission": "To provide exceptional year-round lawn care services that enhance the beauty and value of every property we touch, while building lasting relationships with our clients through reliability, quality, and integrity.",
+        "title": "Providing Comprehensive Lawn Care Since 2017",
+        "story": "What started as a passion for transforming outdoor spaces has grown into Columbus's most trusted lawn care and maintenance service. At Beck's LCAM, we believe every property deserves comprehensive care and attention to detail that makes it stand out. Our team combines years of expertise with cutting-edge equipment to deliver results that exceed expectations.",
+        "mission": "To provide exceptional lawn care and maintenance services that enhance the beauty and value of every property we touch, while building lasting relationships with our clients through reliability, quality, and comprehensive solutions.",
         "values": [
             {
                 "icon": "quality",
                 "title": "Uncompromising Quality",
-                "description": "We never cut corners, only grass. Every project receives meticulous attention to detail, 365 days a year."
+                "description": "We never cut corners, only grass. Every project receives meticulous attention to detail and comprehensive care."
             },
             {
                 "icon": "reliability",
                 "title": "Dependable Service",
-                "description": "We show up on time, every time, every season. Your schedule and property are our priorities year-round."
+                "description": "We show up on time, every time. Your schedule and property are our priorities for complete satisfaction."
             },
             {
                 "icon": "expertise",
                 "title": "Professional Expertise",
-                "description": "Years of experience and continuous training ensure superior results on every job, in every season."
+                "description": "Years of experience and continuous training ensure superior results on every job we undertake."
             },
             {
                 "icon": "satisfaction",
                 "title": "Customer First",
-                "description": "Your satisfaction drives everything we do. We're not done until you're thrilled with the results."
+                "description": "Your satisfaction drives everything we do. We're not done until you're thrilled with the comprehensive results."
             }
         ]
     },
@@ -90,8 +90,8 @@
             "id": "lawn-mowing",
             "name": "Professional Lawn Mowing",
             "icon": "mower",
-            "shortDescription": "Precision cutting for a perfectly manicured lawn, all year long",
-            "fullDescription": "Our professional mowing service goes beyond basic cutting. We use commercial-grade equipment to ensure precise, even cuts that promote healthy grass growth. Each visit includes edging, trimming, and cleanup for a pristine finish, no matter the season.",
+            "shortDescription": "Precision cutting for a perfectly manicured lawn with comprehensive care",
+            "fullDescription": "Our professional mowing service goes beyond basic cutting to provide comprehensive lawn care. We use commercial-grade equipment to ensure precise, even cuts that promote healthy grass growth. Each visit includes edging, trimming, and cleanup for a pristine finish that lasts.",
             "features": [
                 "Precision cutting at optimal height",
                 "Clean edging along walkways and beds",
@@ -105,10 +105,10 @@
         },
         {
             "id": "landscape-maintenance",
-            "name": "Landscape Maintenance",
+            "name": "Comprehensive Landscape Maintenance",
             "icon": "plants",
-            "shortDescription": "Keep your entire landscape looking its best year-round",
-            "fullDescription": "Comprehensive care for all your landscape features. From pruning and mulching to seasonal cleanups, we maintain the health and beauty of your entire outdoor space throughout all seasons.",
+            "shortDescription": "Keep your entire landscape looking its best with our complete care approach",
+            "fullDescription": "Comprehensive care for all your landscape features. From pruning and mulching to seasonal cleanups, we maintain the health and beauty of your entire outdoor space with our full-service approach.",
             "features": [
                 "Shrub and hedge trimming",
                 "Mulch installation and refresh",
@@ -124,8 +124,8 @@
             "id": "lawn-treatment",
             "name": "Lawn Treatment & Fertilization",
             "icon": "treatment",
-            "shortDescription": "Science-backed treatments for a lush, healthy lawn year-round",
-            "fullDescription": "Our tailored treatment programs address your lawn's specific needs through every season. We analyze soil conditions and grass type to create a customized fertilization and pest control plan that delivers vibrant, healthy results.",
+            "shortDescription": "Science-backed treatments for a lush, healthy lawn with comprehensive care",
+            "fullDescription": "Our comprehensive treatment programs address your lawn's specific needs. We analyze soil conditions and grass type to create a customized fertilization and pest control plan that delivers vibrant, healthy results through complete care.",
             "features": [
                 "Custom fertilization programs",
                 "Weed control and prevention",
@@ -141,8 +141,8 @@
             "id": "irrigation",
             "name": "Irrigation Services",
             "icon": "water",
-            "shortDescription": "Smart watering solutions for optimal lawn health",
-            "fullDescription": "Efficient irrigation systems that conserve water while keeping your lawn perfectly hydrated throughout the year. We install, repair, and maintain systems to ensure your landscape gets exactly what it needs in every season.",
+            "shortDescription": "Smart watering solutions for optimal lawn health and comprehensive maintenance",
+            "fullDescription": "Efficient irrigation systems that conserve water while keeping your lawn perfectly hydrated. We install, repair, and maintain systems to ensure your landscape gets exactly what it needs with our comprehensive service approach.",
             "features": [
                 "System installation and design",
                 "Seasonal startup and winterization",
@@ -158,8 +158,8 @@
             "id": "hardscaping",
             "name": "Hardscaping & Design",
             "icon": "hardscape",
-            "shortDescription": "Transform your outdoor space with elegant structures",
-            "fullDescription": "Create stunning outdoor living areas with professional hardscaping. From patios and walkways to retaining walls and fire pits, we build durable, beautiful features that enhance your property's value and enjoyment.",
+            "shortDescription": "Transform your outdoor space with elegant structures and comprehensive design",
+            "fullDescription": "Create stunning outdoor living areas with professional hardscaping and comprehensive design. From patios and walkways to retaining walls and fire pits, we build durable, beautiful features that enhance your property's value and enjoyment.",
             "features": [
                 "Custom patio design and installation",
                 "Walkways and pathways",
@@ -175,8 +175,8 @@
             "id": "seasonal-services",
             "name": "Seasonal Services",
             "icon": "seasons",
-            "shortDescription": "Year-round care for every season's unique needs",
-            "fullDescription": "Specialized services tailored to each season's demands. From spring cleanups to fall leaf removal and winter preparations, we keep your property pristine all year long with our comprehensive seasonal care.",
+            "shortDescription": "Comprehensive care for every season's unique needs",
+            "fullDescription": "Specialized services tailored to each season's demands with our comprehensive approach. From spring cleanups to fall leaf removal and winter preparations, we keep your property pristine all year long with complete seasonal care.",
             "features": [
                 "Spring cleanup and bed preparation",
                 "Summer deep watering programs",
@@ -224,7 +224,7 @@
             "name": "Sarah Mitchell",
             "location": "Columbus, GA",
             "rating": 5,
-            "text": "Lawn Care 365 transformed our overgrown yard into a stunning landscape. Their year-round attention to detail is unmatched, and they're always on time. Best decision we made for our home!",
+            "text": "Beck's LCAM transformed our overgrown yard into a stunning landscape. Their comprehensive attention to detail is unmatched, and they're always on time. Best decision we made for our home!",
             "service": "Full Landscape Renovation",
             "date": "2024-09"
         },
@@ -233,7 +233,7 @@
             "name": "Michael Roberts",
             "location": "Fort Benning, GA",
             "rating": 5,
-            "text": "Professional, reliable, and reasonably priced. My lawn has never looked better. The team is courteous and always leaves the property cleaner than they found it, every season.",
+            "text": "Professional, reliable, and reasonably priced. My lawn has never looked better. The team is courteous and always leaves the property cleaner than they found it.",
             "service": "Weekly Mowing Service",
             "date": "2024-10"
         },
@@ -242,7 +242,7 @@
             "name": "Jennifer Thompson",
             "location": "Columbus, GA",
             "rating": 5,
-            "text": "After struggling with brown patches for years, Lawn Care 365's year-round treatment program brought my lawn back to life. It's now the envy of the neighborhood. Highly recommend!",
+            "text": "After struggling with lawn issues for years, Beck's comprehensive treatment program brought my lawn back to life. It's now the envy of the neighborhood. Highly recommend!",
             "service": "Lawn Treatment Program",
             "date": "2024-08"
         },
@@ -251,7 +251,7 @@
             "name": "David Chen",
             "location": "Phenix City, AL",
             "rating": 5,
-            "text": "The irrigation system they installed has saved us so much time and water. Plus, our lawn stays green even in the hottest months. Excellent work from start to finish.",
+            "text": "The comprehensive irrigation system they installed has saved us so much time and water. Plus, our lawn stays green even in the hottest months. Excellent work from start to finish.",
             "service": "Irrigation Installation",
             "date": "2024-07"
         }
@@ -261,7 +261,7 @@
             "id": 1,
             "title": "Complete Lawn Transformation",
             "category": "Residential",
-            "description": "Total revitalization of a residential front lawn, turning patchy grass into a lush green carpet that lasts year-round.",
+            "description": "Total revitalization of a residential front lawn, turning patchy grass into a lush green carpet with comprehensive care.",
             "beforeImage": "/before-1.webp",
             "afterImage": "/after-1.webp"
         },
@@ -269,7 +269,7 @@
             "id": 2,
             "title": "Backyard Landscape Design",
             "category": "Hardscaping",
-            "description": "Creating a functional and beautiful backyard space with new sod and defined flower beds for year-round enjoyment.",
+            "description": "Creating a functional and beautiful backyard space with new sod and defined flower beds for comprehensive enjoyment.",
             "beforeImage": "/before-2.webp",
             "afterImage": "/after-2.webp"
         },
@@ -277,7 +277,7 @@
             "id": 3,
             "title": "Commercial Grounds Maintenance",
             "category": "Commercial",
-            "description": "Professional maintenance ensuring a pristine appearance for this commercial property throughout all seasons.",
+            "description": "Professional comprehensive maintenance ensuring a pristine appearance for this commercial property.",
             "beforeImage": "/before-3.webp",
             "afterImage": "/after-3.webp"
         },
@@ -285,7 +285,7 @@
             "id": 4,
             "title": "Garden Bed Renovation",
             "category": "Residential",
-            "description": "Cleaning up overgrown beds and installing fresh mulch and plants for year-round curb appeal.",
+            "description": "Cleaning up overgrown beds and installing fresh mulch and plants for comprehensive curb appeal.",
             "beforeImage": "/before-4.webp",
             "afterImage": "/after-4.webp"
         },
@@ -293,7 +293,7 @@
             "id": 5,
             "title": "Seasonal Cleanup & Mulching",
             "category": "Maintenance",
-            "description": "Restoring order to a neglected yard with thorough cleanup and fresh pine straw for seasonal beauty.",
+            "description": "Restoring order to a neglected yard with thorough cleanup and fresh pine straw for comprehensive seasonal beauty.",
             "beforeImage": "/before-5.webp",
             "afterImage": "/after-5.webp"
         },
@@ -301,7 +301,7 @@
             "id": 6,
             "title": "Large Scale Turf Installation",
             "category": "Residential",
-            "description": "Installation of high-quality sod for an instant, dramatic improvement to the property that lasts through seasons.",
+            "description": "Installation of high-quality sod for an instant, dramatic improvement to the property with comprehensive care.",
             "beforeImage": "/before-6.webp",
             "afterImage": "/after-6.webp"
         }
@@ -309,7 +309,7 @@
     "faq": [
         {
             "question": "How often should I have my lawn mowed?",
-            "answer": "Most lawns in the Columbus area benefit from weekly mowing during the growing season (spring through fall). During peak summer growth, weekly service ensures your grass stays at optimal height. In slower growth periods, bi-weekly service may be sufficient. We'll assess your lawn and recommend the best year-round schedule."
+            "answer": "Most lawns in the Columbus area benefit from weekly mowing during the growing season (spring through fall). During peak summer growth, weekly service ensures your grass stays at optimal height. In slower growth periods, bi-weekly service may be sufficient. We'll assess your lawn and recommend the best comprehensive schedule."
         },
         {
             "question": "Do you provide free estimates?",
@@ -321,15 +321,15 @@
         },
         {
             "question": "Are you licensed and insured?",
-            "answer": "Yes, Lawn Care 365 LLC is fully licensed and insured. We carry comprehensive liability insurance and workers' compensation coverage to protect both our team and your property."
+            "answer": "Yes, Beck's LCAM is fully licensed and insured. We carry comprehensive liability insurance and workers' compensation coverage to protect both our team and your property."
         },
         {
             "question": "What if I'm not satisfied with the service?",
             "answer": "Your satisfaction is our top priority. If you're not completely happy with our work, let us know immediately and we'll return to make it right at no additional charge. We stand behind every service with our 100% satisfaction guarantee."
         },
         {
-            "question": "Do you offer seasonal contracts or one-time services?",
-            "answer": "We offer both! Many clients prefer year-round contracts for regular maintenance, which often come with preferred pricing. We also provide one-time services for special projects, cleanups, or occasional maintenance. Whatever works best for you."
+            "question": "Do you offer maintenance contracts or one-time services?",
+            "answer": "We offer both! Many clients prefer comprehensive maintenance contracts for regular care, which often come with preferred pricing. We also provide one-time services for special projects, cleanups, or occasional maintenance. Whatever works best for you."
         },
         {
             "question": "What payment methods do you accept?",
@@ -337,32 +337,32 @@
         },
         {
             "question": "How far in advance should I schedule services?",
-            "answer": "For regular maintenance like mowing, we recommend calling as early as possible to secure your preferred day and time. For larger projects or seasonal services, 2-3 weeks advance notice is ideal, though we'll do our best to accommodate urgent needs."
+            "answer": "For regular maintenance like mowing, we recommend calling as early as possible to secure your preferred day and time. For larger projects or comprehensive services, 2-3 weeks advance notice is ideal, though we'll do our best to accommodate urgent needs."
         }
     ],
     "cta": {
         "main": {
             "title": "Ready to Transform Your Outdoor Space?",
-            "description": "Get your free consultation today and discover why Columbus trusts Lawn Care 365 for all their year-round landscaping needs.",
+            "description": "Get your free consultation today and discover why Columbus trusts Beck's LCAM for all their comprehensive lawn care needs.",
             "buttonText": "Get Free Quote",
-            "phone": "Call (706) 315-2806"
+            "phone": "Call (833) 444-8548"
         },
         "secondary": {
             "title": "Join Hundreds of Satisfied Customers",
-            "description": "Experience the Lawn Care 365 difference. Professional service, exceptional results, guaranteed satisfaction.",
+            "description": "Experience the Beck's LCAM difference. Professional service, exceptional results, guaranteed satisfaction.",
             "buttonText": "Schedule Service"
         }
     },
     "seo": {
         "homepage": {
-            "title": "Lawn Care 365 LLC | Professional Year-Round Lawn Care & Landscaping Columbus, GA",
-            "description": "Columbus's premier year-round lawn care and landscaping service since 2018. Professional mowing, maintenance, and landscape design. Free quotes. Call (706) 315-2806.",
-            "keywords": "lawn care Columbus GA, landscaping Columbus, lawn mowing service, landscape maintenance, lawn treatment, Columbus lawn service, year-round lawn care"
+            "title": "Beck's LCAM | Professional Lawn Care & Comprehensive Maintenance Services Columbus, GA",
+            "description": "Columbus's premier lawn care and comprehensive maintenance service since 2017. Professional mowing, maintenance, and landscape design. Free quotes. Call (833) 444-8548.",
+            "keywords": "lawn care Columbus GA, landscaping Columbus, lawn mowing service, landscape maintenance, lawn treatment, Columbus lawn service, Beck's LCAM"
         },
         "services": {
-            "title": "Professional Year-Round Lawn Care Services | Lawn Care 365 Columbus, GA",
-            "description": "Comprehensive year-round lawn care services including mowing, maintenance, treatment, irrigation, and hardscaping. Serving Columbus and surrounding areas.",
-            "keywords": "lawn mowing Columbus, landscape maintenance, lawn fertilization, irrigation services, hardscaping Columbus GA, year-round lawn service"
+            "title": "Professional Lawn Care & Maintenance Services | Beck's LCAM Columbus, GA",
+            "description": "Comprehensive lawn care and maintenance services including mowing, maintenance, treatment, irrigation, and hardscaping. Serving Columbus and surrounding areas.",
+            "keywords": "lawn mowing Columbus, landscape maintenance, lawn fertilization, irrigation services, hardscaping Columbus GA, comprehensive lawn care"
         }
     },
     "features": {
@@ -376,7 +376,7 @@
         ],
         "badges": [
             {
-                "name": "6+ Years Experience",
+                "name": "7+ Years Experience",
                 "icon": "experience"
             },
             {
@@ -388,8 +388,8 @@
                 "icon": "local"
             },
             {
-                "name": "Year-Round Service",
-                "icon": "year-round"
+                "name": "Comprehensive Care",
+                "icon": "comprehensive"
             }
         ]
     }

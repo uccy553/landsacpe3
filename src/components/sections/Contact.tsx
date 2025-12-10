@@ -128,7 +128,7 @@ export function Contact({ company, services }: ContactProps) {
                         {/* Map Placeholder */}
                         <div className="bg-white rounded-2xl overflow-hidden shadow-md h-48 lg:h-64">
                             <iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3366.0638292595404!2d-84.96282992446504!3d32.47098447379291!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f334aaca2fbf09%3A0xc63245c377d20e45!2sLawn%20Care%20365%20LLC!5e0!3m2!1sen!2sng!4v1765383876093!5m2!1sen!2sng"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3363.6300796348983!2d-84.91894942446227!3d32.53602547376527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x888ccd30eac5d193%3A0x7f99e4f045b71279!2sBeck&#39;s%20LCAM!5e0!3m2!1sen!2sng!4v1765391198669!5m2!1sen!2sng"
                                 width="100%"
                                 height="100%"
                                 style={{ border: 0 }}
