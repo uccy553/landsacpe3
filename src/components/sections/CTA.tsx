@@ -69,7 +69,7 @@ export function CTA({ data, features, phone, phoneRaw }: CTAProps) {
                             </Button>
                             <a
                                 href={`tel:${phoneRaw}`}
-                                className="inline-flex items-center justify-center gap-2 px-6 py-4 bg-white/10 backdrop-blur-sm text-white rounded-lg font-semibold hover:bg-white/20 transition-colors"
+                                className="inline-flex items-center justify-center gap-2 px-6 py-4 bg-white/10 backdrop-blur-sm !text-white rounded-lg font-semibold hover:bg-white/20 transition-colors"
                             >
                                 <Phone className="w-5 h-5" />
                                 {phone}
@@ -92,7 +92,7 @@ export function CTA({ data, features, phone, phoneRaw }: CTAProps) {
                             </p>
 
                             {/* Trust Badges */}
-                            <div className="grid grid-cols-2 gap-4 mb-8">
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
                                 {features.badges.map((badge, index) => (
                                     <div
                                         key={index}
