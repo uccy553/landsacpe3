@@ -1,29 +1,29 @@
 {
     "company": {
-        "name": "Joe's Lawn Care, LLC",
-        "tagline": "Where Precision Meets Perfection",
-        "description": "Montgomery's premier lawn care and landscaping service, delivering exceptional outdoor transformations with meticulous attention to detail.",
-        "founded": "2015",
-        "owner": "Joe",
+        "name": "Lawn Care 365 LLC",
+        "tagline": "Where Precision Meets Perfection, Every Day of the Year",
+        "description": "Columbus's premier year-round lawn care and landscaping service, delivering exceptional outdoor transformations with meticulous attention to detail.",
+        "founded": "2018",
+        "owner": "Lawn Care 365 Team",
         "contact": {
-            "phone": "+1 (334) 840-5887",
-            "phoneRaw": "13348405887",
-            "email": "joeslawncarellc15@gmail.com",
+            "phone": "+1 (706) 315-2806",
+            "phoneRaw": "17063152806",
+            "email": "lawncare365@hotmail.com",
             "address": {
-                "street": "7806 Vaughn Rd",
-                "city": "Montgomery",
-                "state": "AL",
-                "zip": "36116",
+                "street": "1228 Cedar Ave",
+                "city": "Columbus",
+                "state": "GA",
+                "zip": "31906",
                 "country": "United States",
-                "full": "7806 Vaughn Rd, Montgomery, AL 36116, United States"
+                "full": "1228 Cedar Ave, Columbus, GA 31906, United States"
             },
             "coordinates": {
-                "lat": 32.3547,
-                "lng": -86.2389
+                "lat": 32.4601,
+                "lng": -84.9877
             }
         },
         "social": {
-            "facebook": "http://web.facebook.com/JoesLawnCareServices2015"
+            "facebook": "https://web.facebook.com/365lawncare/?_rdc=1&_rdr#"
         },
         "hours": {
             "monday": "7:00 AM - 6:00 PM",
@@ -34,22 +34,22 @@
             "saturday": "8:00 AM - 4:00 PM",
             "sunday": "Closed"
         },
-        "serviceRadius": "25 miles from Montgomery, AL"
+        "serviceRadius": "25 miles from Columbus, GA"
     },
     "hero": {
         "headline": "Transform Your Outdoor Space",
-        "subheadline": "Professional lawn care and landscaping services that elevate your property's beauty and value",
+        "subheadline": "Professional year-round lawn care and landscaping services that elevate your property's beauty and value",
         "cta": {
             "primary": "Get Free Quote",
             "secondary": "View Our Work"
         },
         "stats": [
             {
-                "number": "9+",
+                "number": "6+",
                 "label": "Years of Excellence"
             },
             {
-                "number": "500+",
+                "number": "400+",
                 "label": "Happy Clients"
             },
             {
@@ -59,29 +59,29 @@
         ]
     },
     "about": {
-        "title": "Crafting Beautiful Landscapes Since 2015",
-        "story": "What started as a passion for transforming outdoor spaces has grown into Montgomery's most trusted lawn care service. At Joe's Lawn Care, we believe every property deserves the attention to detail that makes it stand out. Our team combines years of expertise with cutting-edge equipment to deliver results that exceed expectations.",
-        "mission": "To provide exceptional lawn care services that enhance the beauty and value of every property we touch, while building lasting relationships with our clients through reliability, quality, and integrity.",
+        "title": "Crafting Beautiful Landscapes Since 2018",
+        "story": "What started as a passion for transforming outdoor spaces has grown into Columbus's most trusted year-round lawn care service. At Lawn Care 365 LLC, we believe every property deserves the attention to detail that makes it stand out. Our team combines years of expertise with cutting-edge equipment to deliver results that exceed expectations, every day of the year.",
+        "mission": "To provide exceptional year-round lawn care services that enhance the beauty and value of every property we touch, while building lasting relationships with our clients through reliability, quality, and integrity.",
         "values": [
             {
                 "icon": "quality",
                 "title": "Uncompromising Quality",
-                "description": "We never cut corners, only grass. Every project receives meticulous attention to detail."
+                "description": "We never cut corners, only grass. Every project receives meticulous attention to detail, 365 days a year."
             },
             {
                 "icon": "reliability",
                 "title": "Dependable Service",
-                "description": "We show up on time, every time. Your schedule and property are our priorities."
+                "description": "We show up on time, every time, every season. Your schedule and property are our priorities year-round."
             },
             {
                 "icon": "expertise",
                 "title": "Professional Expertise",
-                "description": "Years of experience and continuous training ensure superior results on every job."
+                "description": "Years of experience and continuous training ensure superior results on every job, in every season."
             },
             {
                 "icon": "satisfaction",
                 "title": "Customer First",
-                "description": "Your satisfaction drives everything we do. We're not done until you're thrilled."
+                "description": "Your satisfaction drives everything we do. We're not done until you're thrilled with the results."
             }
         ]
     },
@@ -90,8 +90,8 @@
             "id": "lawn-mowing",
             "name": "Professional Lawn Mowing",
             "icon": "mower",
-            "shortDescription": "Precision cutting for a perfectly manicured lawn",
-            "fullDescription": "Our professional mowing service goes beyond basic cutting. We use commercial-grade equipment to ensure precise, even cuts that promote healthy grass growth. Each visit includes edging, trimming, and cleanup for a pristine finish.",
+            "shortDescription": "Precision cutting for a perfectly manicured lawn, all year long",
+            "fullDescription": "Our professional mowing service goes beyond basic cutting. We use commercial-grade equipment to ensure precise, even cuts that promote healthy grass growth. Each visit includes edging, trimming, and cleanup for a pristine finish, no matter the season.",
             "features": [
                 "Precision cutting at optimal height",
                 "Clean edging along walkways and beds",
@@ -108,7 +108,7 @@
             "name": "Landscape Maintenance",
             "icon": "plants",
             "shortDescription": "Keep your entire landscape looking its best year-round",
-            "fullDescription": "Comprehensive care for all your landscape features. From pruning and mulching to seasonal cleanups, we maintain the health and beauty of your entire outdoor space.",
+            "fullDescription": "Comprehensive care for all your landscape features. From pruning and mulching to seasonal cleanups, we maintain the health and beauty of your entire outdoor space throughout all seasons.",
             "features": [
                 "Shrub and hedge trimming",
                 "Mulch installation and refresh",
@@ -124,8 +124,8 @@
             "id": "lawn-treatment",
             "name": "Lawn Treatment & Fertilization",
             "icon": "treatment",
-            "shortDescription": "Science-backed treatments for a lush, healthy lawn",
-            "fullDescription": "Our tailored treatment programs address your lawn's specific needs. We analyze soil conditions and grass type to create a customized fertilization and pest control plan that delivers vibrant, healthy results.",
+            "shortDescription": "Science-backed treatments for a lush, healthy lawn year-round",
+            "fullDescription": "Our tailored treatment programs address your lawn's specific needs through every season. We analyze soil conditions and grass type to create a customized fertilization and pest control plan that delivers vibrant, healthy results.",
             "features": [
                 "Custom fertilization programs",
                 "Weed control and prevention",
@@ -142,7 +142,7 @@
             "name": "Irrigation Services",
             "icon": "water",
             "shortDescription": "Smart watering solutions for optimal lawn health",
-            "fullDescription": "Efficient irrigation systems that conserve water while keeping your lawn perfectly hydrated. We install, repair, and maintain systems to ensure your landscape gets exactly what it needs.",
+            "fullDescription": "Efficient irrigation systems that conserve water while keeping your lawn perfectly hydrated throughout the year. We install, repair, and maintain systems to ensure your landscape gets exactly what it needs in every season.",
             "features": [
                 "System installation and design",
                 "Seasonal startup and winterization",
@@ -159,7 +159,7 @@
             "name": "Hardscaping & Design",
             "icon": "hardscape",
             "shortDescription": "Transform your outdoor space with elegant structures",
-            "fullDescription": "Create stunning outdoor living areas with professional hardscaping. From patios and walkways to retaining walls and fire pits, we build durable, beautiful features that enhance your property.",
+            "fullDescription": "Create stunning outdoor living areas with professional hardscaping. From patios and walkways to retaining walls and fire pits, we build durable, beautiful features that enhance your property's value and enjoyment.",
             "features": [
                 "Custom patio design and installation",
                 "Walkways and pathways",
@@ -176,7 +176,7 @@
             "name": "Seasonal Services",
             "icon": "seasons",
             "shortDescription": "Year-round care for every season's unique needs",
-            "fullDescription": "Specialized services tailored to each season's demands. From spring cleanups to fall leaf removal and winter preparations, we keep your property pristine all year long.",
+            "fullDescription": "Specialized services tailored to each season's demands. From spring cleanups to fall leaf removal and winter preparations, we keep your property pristine all year long with our comprehensive seasonal care.",
             "features": [
                 "Spring cleanup and bed preparation",
                 "Summer deep watering programs",
@@ -222,34 +222,34 @@
         {
             "id": 1,
             "name": "Sarah Mitchell",
-            "location": "Montgomery, AL",
+            "location": "Columbus, GA",
             "rating": 5,
-            "text": "Joe's Lawn Care transformed our overgrown yard into a stunning landscape. Their attention to detail is unmatched, and they're always on time. Best decision we made for our home!",
+            "text": "Lawn Care 365 transformed our overgrown yard into a stunning landscape. Their year-round attention to detail is unmatched, and they're always on time. Best decision we made for our home!",
             "service": "Full Landscape Renovation",
             "date": "2024-09"
         },
         {
             "id": 2,
             "name": "Michael Roberts",
-            "location": "Prattville, AL",
+            "location": "Fort Benning, GA",
             "rating": 5,
-            "text": "Professional, reliable, and reasonably priced. My lawn has never looked better. The team is courteous and always leaves the property cleaner than they found it.",
+            "text": "Professional, reliable, and reasonably priced. My lawn has never looked better. The team is courteous and always leaves the property cleaner than they found it, every season.",
             "service": "Weekly Mowing Service",
             "date": "2024-10"
         },
         {
             "id": 3,
             "name": "Jennifer Thompson",
-            "location": "Montgomery, AL",
+            "location": "Columbus, GA",
             "rating": 5,
-            "text": "After struggling with brown patches for years, Joe's treatment program brought my lawn back to life. It's now the envy of the neighborhood. Highly recommend!",
+            "text": "After struggling with brown patches for years, Lawn Care 365's year-round treatment program brought my lawn back to life. It's now the envy of the neighborhood. Highly recommend!",
             "service": "Lawn Treatment Program",
             "date": "2024-08"
         },
         {
             "id": 4,
             "name": "David Chen",
-            "location": "Millbrook, AL",
+            "location": "Phenix City, AL",
             "rating": 5,
             "text": "The irrigation system they installed has saved us so much time and water. Plus, our lawn stays green even in the hottest months. Excellent work from start to finish.",
             "service": "Irrigation Installation",
@@ -261,7 +261,7 @@
             "id": 1,
             "title": "Complete Lawn Transformation",
             "category": "Residential",
-            "description": "Total revitalization of a residential front lawn, turning patchy grass into a lush green carpet.",
+            "description": "Total revitalization of a residential front lawn, turning patchy grass into a lush green carpet that lasts year-round.",
             "beforeImage": "/before-1.webp",
             "afterImage": "/after-1.webp"
         },
@@ -269,7 +269,7 @@
             "id": 2,
             "title": "Backyard Landscape Design",
             "category": "Hardscaping",
-            "description": "Creating a functional and beautiful backyard space with new sod and defined flower beds.",
+            "description": "Creating a functional and beautiful backyard space with new sod and defined flower beds for year-round enjoyment.",
             "beforeImage": "/before-2.webp",
             "afterImage": "/after-2.webp"
         },
@@ -277,7 +277,7 @@
             "id": 3,
             "title": "Commercial Grounds Maintenance",
             "category": "Commercial",
-            "description": "Professional maintenance ensuring a pristine appearance for this commercial property.",
+            "description": "Professional maintenance ensuring a pristine appearance for this commercial property throughout all seasons.",
             "beforeImage": "/before-3.webp",
             "afterImage": "/after-3.webp"
         },
@@ -285,7 +285,7 @@
             "id": 4,
             "title": "Garden Bed Renovation",
             "category": "Residential",
-            "description": "Cleaning up overgrown beds and installing fresh mulch and plants for curb appeal.",
+            "description": "Cleaning up overgrown beds and installing fresh mulch and plants for year-round curb appeal.",
             "beforeImage": "/before-4.webp",
             "afterImage": "/after-4.webp"
         },
@@ -293,7 +293,7 @@
             "id": 5,
             "title": "Seasonal Cleanup & Mulching",
             "category": "Maintenance",
-            "description": "Restoring order to a neglected yard with thorough cleanup and fresh pine straw.",
+            "description": "Restoring order to a neglected yard with thorough cleanup and fresh pine straw for seasonal beauty.",
             "beforeImage": "/before-5.webp",
             "afterImage": "/after-5.webp"
         },
@@ -301,7 +301,7 @@
             "id": 6,
             "title": "Large Scale Turf Installation",
             "category": "Residential",
-            "description": "Installation of high-quality sod for an instant, dramatic improvement to the property.",
+            "description": "Installation of high-quality sod for an instant, dramatic improvement to the property that lasts through seasons.",
             "beforeImage": "/before-6.webp",
             "afterImage": "/after-6.webp"
         }
@@ -309,7 +309,7 @@
     "faq": [
         {
             "question": "How often should I have my lawn mowed?",
-            "answer": "Most lawns in the Montgomery area benefit from weekly mowing during the growing season (spring through fall). During peak summer growth, weekly service ensures your grass stays at optimal height. In slower growth periods, bi-weekly service may be sufficient. We'll assess your lawn and recommend the best schedule."
+            "answer": "Most lawns in the Columbus area benefit from weekly mowing during the growing season (spring through fall). During peak summer growth, weekly service ensures your grass stays at optimal height. In slower growth periods, bi-weekly service may be sufficient. We'll assess your lawn and recommend the best year-round schedule."
         },
         {
             "question": "Do you provide free estimates?",
@@ -317,11 +317,11 @@
         },
         {
             "question": "What areas do you service?",
-            "answer": "We proudly serve Montgomery and surrounding areas within a 25-mile radius, including Prattville, Millbrook, Wetumpka, and Pike Road. If you're unsure whether we cover your area, give us a call and we'll let you know."
+            "answer": "We proudly serve Columbus, GA and surrounding areas within a 25-mile radius, including Fort Benning, Phenix City, and surrounding Georgia communities. If you're unsure whether we cover your area, give us a call and we'll let you know."
         },
         {
             "question": "Are you licensed and insured?",
-            "answer": "Yes, Joe's Lawn Care, LLC is fully licensed and insured. We carry comprehensive liability insurance and workers' compensation coverage to protect both our team and your property."
+            "answer": "Yes, Lawn Care 365 LLC is fully licensed and insured. We carry comprehensive liability insurance and workers' compensation coverage to protect both our team and your property."
         },
         {
             "question": "What if I'm not satisfied with the service?",
@@ -329,7 +329,7 @@
         },
         {
             "question": "Do you offer seasonal contracts or one-time services?",
-            "answer": "We offer both! Many clients prefer seasonal contracts for regular maintenance, which often come with preferred pricing. We also provide one-time services for special projects, cleanups, or occasional maintenance. Whatever works best for you."
+            "answer": "We offer both! Many clients prefer year-round contracts for regular maintenance, which often come with preferred pricing. We also provide one-time services for special projects, cleanups, or occasional maintenance. Whatever works best for you."
         },
         {
             "question": "What payment methods do you accept?",
@@ -343,26 +343,26 @@
     "cta": {
         "main": {
             "title": "Ready to Transform Your Outdoor Space?",
-            "description": "Get your free consultation today and discover why Montgomery trusts Joe's Lawn Care for all their landscaping needs.",
+            "description": "Get your free consultation today and discover why Columbus trusts Lawn Care 365 for all their year-round landscaping needs.",
             "buttonText": "Get Free Quote",
-            "phone": "Call (334) 840-5887"
+            "phone": "Call (706) 315-2806"
         },
         "secondary": {
             "title": "Join Hundreds of Satisfied Customers",
-            "description": "Experience the Joe's Lawn Care difference. Professional service, exceptional results, guaranteed.",
+            "description": "Experience the Lawn Care 365 difference. Professional service, exceptional results, guaranteed satisfaction.",
             "buttonText": "Schedule Service"
         }
     },
     "seo": {
         "homepage": {
-            "title": "Joe's Lawn Care, LLC | Professional Lawn Care & Landscaping Montgomery, AL",
-            "description": "Montgomery's premier lawn care and landscaping service since 2015. Professional mowing, maintenance, and landscape design. Free quotes. Call (334) 840-5887.",
-            "keywords": "lawn care Montgomery AL, landscaping Montgomery, lawn mowing service, landscape maintenance, lawn treatment, Montgomery lawn service"
+            "title": "Lawn Care 365 LLC | Professional Year-Round Lawn Care & Landscaping Columbus, GA",
+            "description": "Columbus's premier year-round lawn care and landscaping service since 2018. Professional mowing, maintenance, and landscape design. Free quotes. Call (706) 315-2806.",
+            "keywords": "lawn care Columbus GA, landscaping Columbus, lawn mowing service, landscape maintenance, lawn treatment, Columbus lawn service, year-round lawn care"
         },
         "services": {
-            "title": "Professional Lawn Care Services | Joe's Lawn Care Montgomery, AL",
-            "description": "Comprehensive lawn care services including mowing, maintenance, treatment, irrigation, and hardscaping. Serving Montgomery and surrounding areas.",
-            "keywords": "lawn mowing Montgomery, landscape maintenance, lawn fertilization, irrigation services, hardscaping Montgomery AL"
+            "title": "Professional Year-Round Lawn Care Services | Lawn Care 365 Columbus, GA",
+            "description": "Comprehensive year-round lawn care services including mowing, maintenance, treatment, irrigation, and hardscaping. Serving Columbus and surrounding areas.",
+            "keywords": "lawn mowing Columbus, landscape maintenance, lawn fertilization, irrigation services, hardscaping Columbus GA, year-round lawn service"
         }
     },
     "features": {
@@ -376,7 +376,7 @@
         ],
         "badges": [
             {
-                "name": "9+ Years Experience",
+                "name": "6+ Years Experience",
                 "icon": "experience"
             },
             {
@@ -388,8 +388,8 @@
                 "icon": "local"
             },
             {
-                "name": "Eco-Friendly",
-                "icon": "eco"
+                "name": "Year-Round Service",
+                "icon": "year-round"
             }
         ]
     }
