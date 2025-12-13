@@ -16,6 +16,7 @@ export interface Coordinates {
 
 export interface Company {
     name: string;
+    shortName: string;
     tagline: string;
     description: string;
     founded: string;

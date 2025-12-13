@@ -21,6 +21,7 @@ export default function AboutPage() {
         <>
             <Header
                 companyName={typedData.company.name}
+                shortName={typedData.company.shortName}
                 phone={typedData.company.contact.phone}
                 phoneRaw={typedData.company.contact.phoneRaw}
             />

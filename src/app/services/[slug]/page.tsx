@@ -46,6 +46,7 @@ export default async function ServicePage({ params }: { params: Promise<{ slug: 
         <>
             <Header
                 companyName={typedData.company.name}
+                shortName={typedData.company.shortName}
                 phone={typedData.company.contact.phone}
                 phoneRaw={typedData.company.contact.phoneRaw}
             />

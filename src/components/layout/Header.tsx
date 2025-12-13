@@ -20,11 +20,12 @@ const navLinks = [
 
 interface HeaderProps {
     companyName: string;
+    shortName: string;
     phone: string;
     phoneRaw: string;
 }
 
-export function Header({ companyName, phone, phoneRaw }: HeaderProps) {
+export function Header({ companyName, shortName, phone, phoneRaw }: HeaderProps) {
     const [isScrolled, setIsScrolled] = useState(false);
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -76,7 +77,7 @@ export function Header({ companyName, phone, phoneRaw }: HeaderProps) {
                                 isScrolled ? "text-[var(--color-primary-500)]" : "!text-white"
                             )}
                         >
-                            {companyName.split(",")[0]}
+                            {shortName || companyName}
                         </span>
                     </Link>
 
@@ -104,7 +105,7 @@ export function Header({ companyName, phone, phoneRaw }: HeaderProps) {
                         <a
                             href={`tel:${phoneRaw}`}
                             className={cn(
-                                "flex items-center gap-2 font-medium transition-colors",
+                                "flex items-center gap-2 font-medium transition-colors whitespace-nowrap",
                                 isScrolled
                                     ? "text-[var(--color-primary-500)]"
                                     : "!text-white"
@@ -113,7 +114,14 @@ export function Header({ companyName, phone, phoneRaw }: HeaderProps) {
                             <Phone className="w-4 h-4" />
                             {phone}
                         </a>
-                        <Button variant="secondary" size="sm">
+                        <Button
+                            variant="secondary"
+                            size="sm"
+                            className={cn(
+                                "transition-colors",
+                                isScrolled ? "" : "!text-white"
+                            )}
+                        >
                             Get Free Quote
                         </Button>
                     </div>

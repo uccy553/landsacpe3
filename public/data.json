@@ -1,29 +1,30 @@
 {
     "company": {
-        "name": "Beck's LCAM",
-        "tagline": "Where Lawn Care Excellence Meets Comprehensive Service",
-        "description": "Columbus's premier lawn care and maintenance service, delivering exceptional outdoor transformations with meticulous attention to detail and comprehensive care solutions.",
-        "founded": "2017",
-        "owner": "Beck's LCAM Team",
+        "name": "Manogin and Younger Lawn Service",
+        "shortName": "M&Y Lawn Service",
+        "tagline": "Where Professional Lawn Care Excellence Meets Mississippi Pride",
+        "description": "Jackson's premier lawn service, delivering exceptional lawn care and maintenance with meticulous attention to detail and a commitment to Mississippi properties.",
+        "founded": "2016",
+        "owner": "Manogin and Younger Team",
         "contact": {
-            "phone": "+1 (833) 444-8548",
-            "phoneRaw": "18334448548",
-            "email": "beckslawncareandmore@gmail.com",
+            "phone": "+1 (855) 695-2962",
+            "phoneRaw": "18556952962",
+            "email": "Manoginandyoungerlawnservice@yahoo.com",
             "address": {
-                "street": "6211 Jane Ln",
-                "city": "Columbus",
-                "state": "GA",
-                "zip": "31909",
+                "street": "121 Walleywood Cir",
+                "city": "Jackson",
+                "state": "MS",
+                "zip": "39272",
                 "country": "United States",
-                "full": "6211 Jane Ln, Columbus, GA 31909, United States"
+                "full": "121 Walleywood Cir, Jackson, MS 39272, United States"
             },
             "coordinates": {
-                "lat": 32.5325,
-                "lng": -84.9432
+                "lat": 32.2290,
+                "lng": -90.2050
             }
         },
         "social": {
-            "facebook": "https://web.facebook.com/beckslawncareandmore/?_rdc=1&_rdr#"
+            "facebook": "https://web.facebook.com/manoginandyoungerlawnservice/?_rdc=1&_rdr#"
         },
         "hours": {
             "monday": "7:00 AM - 6:00 PM",
@@ -34,22 +35,22 @@
             "saturday": "8:00 AM - 4:00 PM",
             "sunday": "Closed"
         },
-        "serviceRadius": "25 miles from Columbus, GA"
+        "serviceRadius": "25 miles from Jackson, MS"
     },
     "hero": {
-        "headline": "Transform Your Outdoor Space",
-        "subheadline": "Professional lawn care and comprehensive maintenance services that elevate your property's beauty and value",
+        "headline": "Transform Your Mississippi Lawn",
+        "subheadline": "Professional lawn service and maintenance that elevates your property's beauty and value in the Jackson area",
         "cta": {
             "primary": "Get Free Quote",
             "secondary": "View Our Work"
         },
         "stats": [
             {
-                "number": "7+",
+                "number": "8+",
                 "label": "Years of Excellence"
             },
             {
-                "number": "500+",
+                "number": "400+",
                 "label": "Happy Clients"
             },
             {
@@ -59,14 +60,14 @@
         ]
     },
     "about": {
-        "title": "Providing Comprehensive Lawn Care Since 2017",
-        "story": "What started as a passion for transforming outdoor spaces has grown into Columbus's most trusted lawn care and maintenance service. At Beck's LCAM, we believe every property deserves comprehensive care and attention to detail that makes it stand out. Our team combines years of expertise with cutting-edge equipment to deliver results that exceed expectations.",
-        "mission": "To provide exceptional lawn care and maintenance services that enhance the beauty and value of every property we touch, while building lasting relationships with our clients through reliability, quality, and comprehensive solutions.",
+        "title": "Providing Premium Lawn Service Since 2016",
+        "story": "What started as a passion for transforming Mississippi lawns has grown into Jackson's most trusted lawn service. At Manogin and Younger Lawn Service, we believe every property deserves professional care and attention to detail that makes it stand out. Our team combines years of expertise with cutting-edge equipment to deliver results that exceed expectations.",
+        "mission": "To provide exceptional lawn service and maintenance that enhances the beauty and value of every Mississippi property we touch, while building lasting relationships with our clients through reliability, quality, and professional solutions.",
         "values": [
             {
                 "icon": "quality",
                 "title": "Uncompromising Quality",
-                "description": "We never cut corners, only grass. Every project receives meticulous attention to detail and comprehensive care."
+                "description": "We never cut corners, only grass. Every project receives meticulous attention to detail and professional care."
             },
             {
                 "icon": "reliability",
@@ -81,7 +82,7 @@
             {
                 "icon": "satisfaction",
                 "title": "Customer First",
-                "description": "Your satisfaction drives everything we do. We're not done until you're thrilled with the comprehensive results."
+                "description": "Your satisfaction drives everything we do. We're not done until you're thrilled with the professional results."
             }
         ]
     },
@@ -90,8 +91,8 @@
             "id": "lawn-mowing",
             "name": "Professional Lawn Mowing",
             "icon": "mower",
-            "shortDescription": "Precision cutting for a perfectly manicured lawn with comprehensive care",
-            "fullDescription": "Our professional mowing service goes beyond basic cutting to provide comprehensive lawn care. We use commercial-grade equipment to ensure precise, even cuts that promote healthy grass growth. Each visit includes edging, trimming, and cleanup for a pristine finish that lasts.",
+            "shortDescription": "Precision cutting for a perfectly manicured Mississippi lawn with professional care",
+            "fullDescription": "Our professional mowing service goes beyond basic cutting to provide premium lawn care. We use commercial-grade equipment to ensure precise, even cuts that promote healthy grass growth. Each visit includes edging, trimming, and cleanup for a pristine finish that lasts in Mississippi's climate.",
             "features": [
                 "Precision cutting at optimal height",
                 "Clean edging along walkways and beds",
@@ -107,8 +108,8 @@
             "id": "landscape-maintenance",
             "name": "Comprehensive Landscape Maintenance",
             "icon": "plants",
-            "shortDescription": "Keep your entire landscape looking its best with our complete care approach",
-            "fullDescription": "Comprehensive care for all your landscape features. From pruning and mulching to seasonal cleanups, we maintain the health and beauty of your entire outdoor space with our full-service approach.",
+            "shortDescription": "Keep your entire Mississippi landscape looking its best with our complete care approach",
+            "fullDescription": "Comprehensive care for all your landscape features. From pruning and mulching to seasonal cleanups, we maintain the health and beauty of your entire outdoor space with our full-service approach tailored for Mississippi properties.",
             "features": [
                 "Shrub and hedge trimming",
                 "Mulch installation and refresh",
@@ -124,8 +125,8 @@
             "id": "lawn-treatment",
             "name": "Lawn Treatment & Fertilization",
             "icon": "treatment",
-            "shortDescription": "Science-backed treatments for a lush, healthy lawn with comprehensive care",
-            "fullDescription": "Our comprehensive treatment programs address your lawn's specific needs. We analyze soil conditions and grass type to create a customized fertilization and pest control plan that delivers vibrant, healthy results through complete care.",
+            "shortDescription": "Science-backed treatments for a lush, healthy Mississippi lawn with professional care",
+            "fullDescription": "Our professional treatment programs address your lawn's specific needs in Mississippi's climate. We analyze soil conditions and grass type to create a customized fertilization and pest control plan that delivers vibrant, healthy results through complete care.",
             "features": [
                 "Custom fertilization programs",
                 "Weed control and prevention",
@@ -141,8 +142,8 @@
             "id": "irrigation",
             "name": "Irrigation Services",
             "icon": "water",
-            "shortDescription": "Smart watering solutions for optimal lawn health and comprehensive maintenance",
-            "fullDescription": "Efficient irrigation systems that conserve water while keeping your lawn perfectly hydrated. We install, repair, and maintain systems to ensure your landscape gets exactly what it needs with our comprehensive service approach.",
+            "shortDescription": "Smart watering solutions for optimal lawn health in Mississippi's climate",
+            "fullDescription": "Efficient irrigation systems that conserve water while keeping your lawn perfectly hydrated. We install, repair, and maintain systems to ensure your Mississippi landscape gets exactly what it needs with our professional service approach.",
             "features": [
                 "System installation and design",
                 "Seasonal startup and winterization",
@@ -158,8 +159,8 @@
             "id": "hardscaping",
             "name": "Hardscaping & Design",
             "icon": "hardscape",
-            "shortDescription": "Transform your outdoor space with elegant structures and comprehensive design",
-            "fullDescription": "Create stunning outdoor living areas with professional hardscaping and comprehensive design. From patios and walkways to retaining walls and fire pits, we build durable, beautiful features that enhance your property's value and enjoyment.",
+            "shortDescription": "Transform your outdoor space with elegant structures and professional design",
+            "fullDescription": "Create stunning outdoor living areas with professional hardscaping. From patios and walkways to retaining walls and fire pits, we build durable, beautiful features that enhance your Mississippi property's value and enjoyment.",
             "features": [
                 "Custom patio design and installation",
                 "Walkways and pathways",
@@ -175,8 +176,8 @@
             "id": "seasonal-services",
             "name": "Seasonal Services",
             "icon": "seasons",
-            "shortDescription": "Comprehensive care for every season's unique needs",
-            "fullDescription": "Specialized services tailored to each season's demands with our comprehensive approach. From spring cleanups to fall leaf removal and winter preparations, we keep your property pristine all year long with complete seasonal care.",
+            "shortDescription": "Professional care for every Mississippi season's unique needs",
+            "fullDescription": "Specialized services tailored to each season's demands with our professional approach. From spring cleanups to fall leaf removal and winter preparations, we keep your Mississippi property pristine all year long with complete seasonal care.",
             "features": [
                 "Spring cleanup and bed preparation",
                 "Summer deep watering programs",
@@ -222,16 +223,16 @@
         {
             "id": 1,
             "name": "Sarah Mitchell",
-            "location": "Columbus, GA",
+            "location": "Jackson, MS",
             "rating": 5,
-            "text": "Beck's LCAM transformed our overgrown yard into a stunning landscape. Their comprehensive attention to detail is unmatched, and they're always on time. Best decision we made for our home!",
-            "service": "Full Landscape Renovation",
+            "text": "Manogin and Younger transformed our overgrown yard into a stunning landscape. Their professional attention to detail is unmatched, and they're always on time. Best decision we made for our home!",
+            "service": "Full Lawn Renovation",
             "date": "2024-09"
         },
         {
             "id": 2,
             "name": "Michael Roberts",
-            "location": "Fort Benning, GA",
+            "location": "Madison, MS",
             "rating": 5,
             "text": "Professional, reliable, and reasonably priced. My lawn has never looked better. The team is courteous and always leaves the property cleaner than they found it.",
             "service": "Weekly Mowing Service",
@@ -240,18 +241,18 @@
         {
             "id": 3,
             "name": "Jennifer Thompson",
-            "location": "Columbus, GA",
+            "location": "Jackson, MS",
             "rating": 5,
-            "text": "After struggling with lawn issues for years, Beck's comprehensive treatment program brought my lawn back to life. It's now the envy of the neighborhood. Highly recommend!",
+            "text": "After struggling with lawn issues for years, Manogin and Younger's treatment program brought my lawn back to life. It's now the envy of the neighborhood. Highly recommend!",
             "service": "Lawn Treatment Program",
             "date": "2024-08"
         },
         {
             "id": 4,
             "name": "David Chen",
-            "location": "Phenix City, AL",
+            "location": "Ridgeland, MS",
             "rating": 5,
-            "text": "The comprehensive irrigation system they installed has saved us so much time and water. Plus, our lawn stays green even in the hottest months. Excellent work from start to finish.",
+            "text": "The professional irrigation system they installed has saved us so much time and water. Plus, our lawn stays green even in the hottest months. Excellent work from start to finish.",
             "service": "Irrigation Installation",
             "date": "2024-07"
         }
@@ -261,7 +262,7 @@
             "id": 1,
             "title": "Complete Lawn Transformation",
             "category": "Residential",
-            "description": "Total revitalization of a residential front lawn, turning patchy grass into a lush green carpet with comprehensive care.",
+            "description": "Total revitalization of a residential front lawn, turning patchy grass into a lush green carpet with professional care.",
             "beforeImage": "/before-1.webp",
             "afterImage": "/after-1.webp"
         },
@@ -269,7 +270,7 @@
             "id": 2,
             "title": "Backyard Landscape Design",
             "category": "Hardscaping",
-            "description": "Creating a functional and beautiful backyard space with new sod and defined flower beds for comprehensive enjoyment.",
+            "description": "Creating a functional and beautiful backyard space with new sod and defined flower beds for professional enjoyment.",
             "beforeImage": "/before-2.webp",
             "afterImage": "/after-2.webp"
         },
@@ -277,7 +278,7 @@
             "id": 3,
             "title": "Commercial Grounds Maintenance",
             "category": "Commercial",
-            "description": "Professional comprehensive maintenance ensuring a pristine appearance for this commercial property.",
+            "description": "Professional maintenance ensuring a pristine appearance for this Jackson commercial property.",
             "beforeImage": "/before-3.webp",
             "afterImage": "/after-3.webp"
         },
@@ -285,7 +286,7 @@
             "id": 4,
             "title": "Garden Bed Renovation",
             "category": "Residential",
-            "description": "Cleaning up overgrown beds and installing fresh mulch and plants for comprehensive curb appeal.",
+            "description": "Cleaning up overgrown beds and installing fresh mulch and plants for professional curb appeal.",
             "beforeImage": "/before-4.webp",
             "afterImage": "/after-4.webp"
         },
@@ -293,7 +294,7 @@
             "id": 5,
             "title": "Seasonal Cleanup & Mulching",
             "category": "Maintenance",
-            "description": "Restoring order to a neglected yard with thorough cleanup and fresh pine straw for comprehensive seasonal beauty.",
+            "description": "Restoring order to a neglected yard with thorough cleanup and fresh pine straw for professional seasonal beauty.",
             "beforeImage": "/before-5.webp",
             "afterImage": "/after-5.webp"
         },
@@ -301,7 +302,7 @@
             "id": 6,
             "title": "Large Scale Turf Installation",
             "category": "Residential",
-            "description": "Installation of high-quality sod for an instant, dramatic improvement to the property with comprehensive care.",
+            "description": "Installation of high-quality sod for an instant, dramatic improvement to the property with professional care.",
             "beforeImage": "/before-6.webp",
             "afterImage": "/after-6.webp"
         }
@@ -309,7 +310,7 @@
     "faq": [
         {
             "question": "How often should I have my lawn mowed?",
-            "answer": "Most lawns in the Columbus area benefit from weekly mowing during the growing season (spring through fall). During peak summer growth, weekly service ensures your grass stays at optimal height. In slower growth periods, bi-weekly service may be sufficient. We'll assess your lawn and recommend the best comprehensive schedule."
+            "answer": "Most lawns in the Jackson area benefit from weekly mowing during the growing season (spring through fall). During peak summer growth, weekly service ensures your grass stays at optimal height. In slower growth periods, bi-weekly service may be sufficient. We'll assess your lawn and recommend the best professional schedule."
         },
         {
             "question": "Do you provide free estimates?",
@@ -317,11 +318,11 @@
         },
         {
             "question": "What areas do you service?",
-            "answer": "We proudly serve Columbus, GA and surrounding areas within a 25-mile radius, including Fort Benning, Phenix City, and surrounding Georgia communities. If you're unsure whether we cover your area, give us a call and we'll let you know."
+            "answer": "We proudly serve Jackson, MS and surrounding areas within a 25-mile radius, including Madison, Ridgeland, Brandon, and surrounding Mississippi communities. If you're unsure whether we cover your area, give us a call and we'll let you know."
         },
         {
             "question": "Are you licensed and insured?",
-            "answer": "Yes, Beck's LCAM is fully licensed and insured. We carry comprehensive liability insurance and workers' compensation coverage to protect both our team and your property."
+            "answer": "Yes, Manogin and Younger Lawn Service is fully licensed and insured. We carry comprehensive liability insurance and workers' compensation coverage to protect both our team and your property."
         },
         {
             "question": "What if I'm not satisfied with the service?",
@@ -329,7 +330,7 @@
         },
         {
             "question": "Do you offer maintenance contracts or one-time services?",
-            "answer": "We offer both! Many clients prefer comprehensive maintenance contracts for regular care, which often come with preferred pricing. We also provide one-time services for special projects, cleanups, or occasional maintenance. Whatever works best for you."
+            "answer": "We offer both! Many clients prefer professional maintenance contracts for regular care, which often come with preferred pricing. We also provide one-time services for special projects, cleanups, or occasional maintenance. Whatever works best for you."
         },
         {
             "question": "What payment methods do you accept?",
@@ -337,32 +338,32 @@
         },
         {
             "question": "How far in advance should I schedule services?",
-            "answer": "For regular maintenance like mowing, we recommend calling as early as possible to secure your preferred day and time. For larger projects or comprehensive services, 2-3 weeks advance notice is ideal, though we'll do our best to accommodate urgent needs."
+            "answer": "For regular maintenance like mowing, we recommend calling as early as possible to secure your preferred day and time. For larger projects or professional services, 2-3 weeks advance notice is ideal, though we'll do our best to accommodate urgent needs."
         }
     ],
     "cta": {
         "main": {
-            "title": "Ready to Transform Your Outdoor Space?",
-            "description": "Get your free consultation today and discover why Columbus trusts Beck's LCAM for all their comprehensive lawn care needs.",
+            "title": "Ready to Transform Your Mississippi Lawn?",
+            "description": "Get your free consultation today and discover why Jackson trusts Manogin and Younger Lawn Service for all their professional lawn care needs.",
             "buttonText": "Get Free Quote",
-            "phone": "Call (833) 444-8548"
+            "phone": "Call (855) 695-2962"
         },
         "secondary": {
             "title": "Join Hundreds of Satisfied Customers",
-            "description": "Experience the Beck's LCAM difference. Professional service, exceptional results, guaranteed satisfaction.",
+            "description": "Experience the Manogin and Younger difference. Professional service, exceptional results, guaranteed satisfaction.",
             "buttonText": "Schedule Service"
         }
     },
     "seo": {
         "homepage": {
-            "title": "Beck's LCAM | Professional Lawn Care & Comprehensive Maintenance Services Columbus, GA",
-            "description": "Columbus's premier lawn care and comprehensive maintenance service since 2017. Professional mowing, maintenance, and landscape design. Free quotes. Call (833) 444-8548.",
-            "keywords": "lawn care Columbus GA, landscaping Columbus, lawn mowing service, landscape maintenance, lawn treatment, Columbus lawn service, Beck's LCAM"
+            "title": "Manogin and Younger Lawn Service | Professional Lawn Care Services Jackson, MS",
+            "description": "Jackson's premier lawn service since 2016. Professional mowing, maintenance, and lawn care in Mississippi. Free quotes. Call (855) 695-2962",
+            "keywords": "lawn care Jackson MS, lawn service Jackson, professional mowing Mississippi, lawn maintenance Jackson, lawn treatment, Mississippi lawn service, Manogin and Younger"
         },
         "services": {
-            "title": "Professional Lawn Care & Maintenance Services | Beck's LCAM Columbus, GA",
-            "description": "Comprehensive lawn care and maintenance services including mowing, maintenance, treatment, irrigation, and hardscaping. Serving Columbus and surrounding areas.",
-            "keywords": "lawn mowing Columbus, landscape maintenance, lawn fertilization, irrigation services, hardscaping Columbus GA, comprehensive lawn care"
+            "title": "Professional Lawn Care Services | Manogin and Younger Lawn Service Jackson, MS",
+            "description": "Professional lawn care and maintenance services including mowing, treatment, irrigation, and hardscaping. Serving Jackson and surrounding Mississippi areas.",
+            "keywords": "lawn mowing Jackson, lawn maintenance, lawn fertilization Mississippi, irrigation services Jackson, hardscaping Jackson MS, professional lawn service"
         }
     },
     "features": {
@@ -376,7 +377,7 @@
         ],
         "badges": [
             {
-                "name": "7+ Years Experience",
+                "name": "8+ Years Experience",
                 "icon": "experience"
             },
             {
@@ -388,8 +389,8 @@
                 "icon": "local"
             },
             {
-                "name": "Comprehensive Care",
-                "icon": "comprehensive"
+                "name": "Mississippi Owned",
+                "icon": "local"
             }
         ]
     }
