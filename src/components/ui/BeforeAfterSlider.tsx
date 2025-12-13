@@ -83,11 +83,11 @@ export function BeforeAfterSlider({
             className={`relative w-full select-none cursor-ew-resize ${className}`}
             onClick={handleContainerClick}
         >
-            {/* After Image (Background - Defines Size) */}
+            {/* After Image (Background) */}
             <img
                 src={afterImage}
                 alt={`After ${alt}`}
-                className="block w-full h-auto"
+                className="absolute inset-0 w-full h-full object-cover"
                 draggable={false}
             />
 
