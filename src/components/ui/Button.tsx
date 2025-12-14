@@ -20,28 +20,10 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
     `;
 
         const variants = {
-            primary: `
-        bg-[var(--color-primary-500)] text-white
-        hover:bg-[var(--color-primary-600)] hover:scale-[1.02] hover:shadow-lg
-        focus-visible:ring-[var(--color-primary-500)]
-        active:scale-[0.98]
-      `,
-            secondary: `
-        bg-[var(--color-accent-500)] text-[var(--color-primary-900)]
-        hover:bg-[var(--color-accent-600)] hover:scale-[1.02] hover:shadow-lg
-        focus-visible:ring-[var(--color-accent-500)]
-        active:scale-[0.98]
-      `,
-            outline: `
-        border-2 border-[var(--color-primary-500)] text-[var(--color-primary-500)]
-        hover:bg-[var(--color-primary-500)] hover:text-white
-        focus-visible:ring-[var(--color-primary-500)]
-      `,
-            ghost: `
-        text-[var(--color-primary-500)]
-        hover:bg-[var(--color-primary-50)]
-        focus-visible:ring-[var(--color-primary-500)]
-      `,
+            primary: "hover:scale-[1.02] hover:shadow-lg active:scale-[0.98]",
+            secondary: "hover:scale-[1.02] hover:shadow-lg active:scale-[0.98]",
+            outline: "border-2 hover:text-white",
+            ghost: "",
         };
 
         const sizes = {
@@ -50,10 +32,26 @@ const Button = forwardRef<HTMLButtonElement, ButtonProps>(
             lg: "px-8 py-4 text-lg",
         };
 
+        const getVariantStyles = (variant: string) => {
+            switch (variant) {
+                case "primary":
+                    return { backgroundColor: "#1a3d2e", color: "#ffffff", borderColor: "transparent" };
+                case "secondary":
+                    return { backgroundColor: "#d4af37", color: "#0a1915", borderColor: "transparent" };
+                case "outline":
+                    return { backgroundColor: "transparent", color: "#1a3d2e", borderColor: "#1a3d2e" };
+                case "ghost":
+                    return { backgroundColor: "transparent", color: "#1a3d2e", borderColor: "transparent" };
+                default:
+                    return {};
+            }
+        };
+
         return (
             <button
                 ref={ref}
                 className={cn(baseStyles, variants[variant], sizes[size], className)}
+                style={{ ...getVariantStyles(variant), ...props.style }}
                 disabled={disabled || isLoading}
                 {...props}
             >
